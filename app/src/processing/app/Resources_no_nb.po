@@ -5,17 +5,19 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: 2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 10:24-0400\n"
-"PO-Revision-Date: 2012-03-29 10:24-0400\n"
-"Last-Translator: Rune Fauske <>\n"
+"PO-Revision-Date: 2012-06-05 10:58+0100\n"
+"Last-Translator: Rune Fauske <rune.fauske@gmail.com>\n"
 "Language-Team: Norwegian bokmål\n"
 "Language: nb_no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Norwegian Bokmal\n"
+"X-Poedit-Country: NORWAY\n"
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
@@ -79,7 +81,7 @@ msgstr "Sideoppsett"
 msgid "Print"
 msgstr "Skriv ut"
 
-#: Editor.java:576 Preferences.java:287
+#: Editor.java:576 Preferences.java:292
 msgid "Preferences"
 msgstr "Innstillinger"
 
@@ -280,11 +282,7 @@ msgid ""
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Do you "
 "want to save changes to this sketch<BR> before closing?</b><p>If you don't "
 "save, your changes will be lost."
-msgstr ""
-"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
-"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Vil du "
-"lagre endringer i denne skissen<BR> før den lukkes?</b><p>Hvis du ikke "
-"lagrer, vil endringene gå tapt."
+msgstr "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Vil du lagre endringer i denne skissen<BR> før den lukkes?</b><p>Hvis du ikke lagrer, vil endringene gå tapt."
 
 #: Editor.java:2017 Editor.java:2098 Editor.java:2418 Sketch.java:589
 #: Sketch.java:741 Sketch.java:1046 Preferences.java:78
@@ -329,7 +327,7 @@ msgstr "Flytter"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:253
 msgid "Error"
 msgstr "Feil"
 
@@ -530,21 +528,19 @@ msgstr " baud"
 msgid ""
 "Serial port ''{0}'' already in use. Try quitting any programs that may be "
 "using it."
-msgstr ""
+msgstr "Serieporten \"{0}\" er allerede i bruk. Prøve å avslutt eventuelle program som kan tenkes å bruke den."
 
 #: Serial.java:124
 #, java-format
 msgid "Error touching serial port ''{0}''."
-msgstr ""
+msgstr "Feil under tilgang til serieporten \"{0}\"."
 
 #: Serial.java:173
 #, java-format
 msgid ""
 "Serial port ''{0}'' already in use. Try quiting any programs that may be "
 "using it."
-msgstr ""
-"Serieporten ''{0}'' er allerede i bruk. Prøv å avslutte eventuelle program som kan tenkes å "
-"benytte den."
+msgstr "Serieporten ''{0}'' er allerede i bruk. Prøv å avslutte eventuelle program som kan tenkes å benytte den."
 
 #: Serial.java:180
 #, java-format
@@ -556,18 +552,14 @@ msgstr "Feil ved åpning av serieport ''{0}''."
 msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
 "Serial Port menu?"
-msgstr ""
-"Fant ikke serieporten ''{0}''. Valgte du den riktige fra Verktøy > "
-"Serieport menyen?" 
+msgstr "Fant ikke serieporten ''{0}''. Valgte du den riktige fra Verktøy > Serieport menyen?"
 
 #: Serial.java:450
 #, java-format
 msgid ""
 "readBytesUntil() byte buffer is too small for the {0} bytes up to and "
 "including char {1}"
-msgstr ""
-"Byte bufferet for readByteUntil() er for lite for {0} byter opp til "
-"og med char {1}"
+msgstr "Byte bufferet for readByteUntil() er for lite for {0} byter opp til og med char {1}"
 
 #: Serial.java:592
 #, java-format
@@ -661,11 +653,7 @@ msgid ""
 "older version of Processing,you may need to use Tools -> Fix Encoding & "
 "Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
 "todelete the bad characters to get rid of this warning."
-msgstr ""
-"\"{0}\" inneholder ukjente karakterer. Hvis denne kildekoden var laget med en "
-"eldre versjon av Processing, må du kanskje bruke Verktøy -> Fiks tegnkoding & "
-"Last på nytt for å oppdatere skissen til å benytte UTF-8 koding. Hvis ikke må "
-"du kanskje slette de ukjente karakterene for å blit kvitt denne feilmeldingen."
+msgstr "\"{0}\" inneholder ukjente karakterer. Hvis denne kildekoden var laget med en eldre versjon av Processing, må du kanskje bruke Verktøy -> Fiks tegnkoding & Last på nytt for å oppdatere skissen til å benytte UTF-8 koding. Hvis ikke må du kanskje slette de ukjente karakterene for å blit kvitt denne feilmeldingen."
 
 #: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
 msgid "Sketch is Read-Only"
@@ -927,9 +915,7 @@ msgstr "Kunne ikke bestemme størrelsen av programmet: {0}"
 msgid ""
 "Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
 "tips on reducing it."
-msgstr ""
-"Skissen er for stor. Se http://www.arduino.cc/en/Guide/Troubleshooting#size for "
-"forslag til hvordan størrelsen kan reduseres"
+msgstr "Skissen er for stor. Se http://www.arduino.cc/en/Guide/Troubleshooting#size for forslag til hvordan størrelsen kan reduseres"
 
 #: Sketch.java:1719
 msgid "Missing the */ from the end of a /* comment */"
@@ -973,14 +959,14 @@ msgstr ""
 
 #: debug/AvrdudeUploader.java:96
 msgid "Forcing reset using 1200bps open/close on port "
-msgstr ""
+msgstr "Tvungen reset ved 1200bps åpne/lukke på porten"
 
 #: debug/AvrdudeUploader.java:151
 msgid ""
 "Couldn’t find a Leonardo on the selected port. Check that you have the "
 "correct port selected.  If it is correct, try pressing the board's reset "
 "button after initiating the upload."
-msgstr ""
+msgstr "Fant ikke en Leonardo på den valgte porten. Verifiser at du har valgt riktig port. Prøv å trykke kortets reset knapp etter at du startet opplastingen, dersom porten er riktig."
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -995,32 +981,25 @@ msgstr "Kompilatorfeil, vennligst send denne koden til {0}"
 #, java-format
 msgid ""
 "the selected serial port {0} does not exist or your board is not connected"
-msgstr ""
-"den valgte serieporten {0} eksisterer ikke, eller kortet ditt er ikke tilkoblet"
+msgstr "den valgte serieporten {0} eksisterer ikke, eller kortet ditt er ikke tilkoblet"
 
 #: debug/Uploader.java:213
 msgid ""
 "Device is not responding, check the right serial port is selected or RESET "
 "the board right before exporting"
-msgstr ""
-"Enheten svarer ikke, sjekk at riktig serieport er valgt eller RESET "
-"kortet like før eksportering"
+msgstr "Enheten svarer ikke, sjekk at riktig serieport er valgt eller RESET kortet like før eksportering"
 
 #: debug/Uploader.java:223
 msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
-msgstr ""
-"Problemer ved opplasting til kortet. Se http://www.arduino.cc/en/Guide/"
-"Troubleshooting#upload for forslag."
+msgstr "Problemer ved opplasting til kortet. Se http://www.arduino.cc/en/Guide/Troubleshooting#upload for forslag."
 
 #: debug/Uploader.java:227
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
-msgstr ""
-"Feil mikrokontroller funnet. Valgte du riktig kort fra Verktøy "
-"> Kort menyen?"
+msgstr "Feil mikrokontroller funnet. Valgte du riktig kort fra Verktøy > Kort menyen?"
 
 #: debug/Compiler.java:41
 msgid "http://code.google.com/p/arduino/issues/list"
@@ -1053,8 +1032,7 @@ msgid ""
 msgstr ""
 "\n"
 "Fra Arduino 0019, er Ethernet bilioteket avhengig av SPI biblioteket.\n"
-"Det ser ut som du benytter et bibliotek som er avhangig av SPI "
-"biblioteket.\n"
+"Det ser ut som du benytter et bibliotek som er avhangig av SPI biblioteket.\n"
 "\n"
 
 #: debug/Compiler.java:474
@@ -1085,8 +1063,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Fra Arduino 1.0 er Server klassen i Ethernet biblioteket blitt omdøpt "
-"til EthernetServer.\n"
+"Fra Arduino 1.0 er Server klassen i Ethernet biblioteket blitt omdøpt til EthernetServer.\n"
 "\n"
 
 #: debug/Compiler.java:486
@@ -1101,8 +1078,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Fra Arduino 1.0 er Client klassen i Ethernet biblioteket blitt omdøpt"
-"til EthernetClient.\n"
+"Fra Arduino 1.0 er Client klassen i Ethernet biblioteket blitt omdøpttil EthernetClient.\n"
 "\n"
 
 #: debug/Compiler.java:492
@@ -1116,10 +1092,6 @@ msgid ""
 "EthernetClient.\n"
 "\n"
 msgstr ""
-"\n"
-"Fra Arduino 1.0 er Udp klassen i Ethernet biblioteket blitt omdøpt til "
-"EthernetClient.\n"
-"\n"
 
 #: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
@@ -1133,8 +1105,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Fra Arduino 1.0 er Wire.send() funksjonen omdøpt til Wire.write() for "
-"konsistens med andre bibliotek.\n"
+"Fra Arduino 1.0 er Wire.send() funksjonen omdøpt til Wire.write() for konsistens med andre bibliotek.\n"
 "\n"
 
 #: debug/Compiler.java:504
@@ -1149,17 +1120,16 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Fra Arduion 1.0 er Wire.receive() funksjonen omdøpt til Wire.read() "
-"for konsistens med andre bibliotek.\n"
+"Fra Arduion 1.0 er Wire.receive() funksjonen omdøpt til Wire.read() for konsistens med andre bibliotek.\n"
 "\n"
 
 #: debug/Compiler.java:510
 msgid "'Mouse' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "'Mus' er kun støttet på Arduino Leonardo"
 
 #: debug/Compiler.java:515
 msgid "'Keyboard' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "'Tastatur' er kun støttet på Arduino Leonardo"
 
 #: EditorConsole.java:152
 msgid "Console Error"
@@ -1221,8 +1191,8 @@ msgid ""
 msgstr ""
 "Mappen for skisser eksisterer ikke lenger.\n"
 "Arduino vil nå gå over til å bruke standard mappe for\n"
-"skisser, og hvis nødvendig opprette en ny mappe\n."
-"Etterpå vil Arduino slutte å omtale seg selv i\n"
+"skisser, og hvis nødvendig opprette en ny mappe\n"
+".Etterpå vil Arduino slutte å omtale seg selv i\n"
 "tredje person."
 
 #: Base.java:532
@@ -1254,10 +1224,7 @@ msgid ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
 "sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
-msgstr ""
-"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
-"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Er du "
-"sikker på at du vil avslutte?</b><p>Lukker du den siste skissen, avsluttes Arduino."
+msgstr "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Er du sikker på at du vil avslutte?</b><p>Lukker du den siste skissen, avsluttes Arduino."
 
 #: Base.java:970
 msgid "Contributed"
@@ -1475,8 +1442,7 @@ msgid ""
 "\"launcher=/path/to/app\" line to preferences.txt"
 msgstr ""
 "Uspesifisert platform er ikke lenger tilgjengelig.\n"
-"Legg til \"launcher=/sti/til/app\" i preferences.txt"
-"for å kunne åpne URLer og mapper."
+"Legg til \"launcher=/sti/til/app\" i preferences.txtfor å kunne åpne URLer og mapper."
 
 #: Theme.java:52
 msgid ""
@@ -1492,133 +1458,141 @@ msgstr "Bla i gjennom"
 
 #: Preferences.java:83
 msgid "System Default"
-msgstr ""
+msgstr "System standardverdi"
 
 #: Preferences.java:84
 msgid "Arabic"
-msgstr ""
+msgstr "Arabisk"
 
 #: Preferences.java:85
 msgid "Aragonese"
-msgstr ""
+msgstr "Aragonesisk"
 
 #: Preferences.java:86
 msgid "Catalan"
-msgstr "Katalansk"	
+msgstr "Katalansk"
 
 #: Preferences.java:87
 msgid "Chinese Simplified"
-msgstr "Kinesisk forenklet"	
+msgstr "Kinesisk forenklet"
 
 #: Preferences.java:88
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "Kinesisk tradisjonell"
 
 #: Preferences.java:89
+msgid "Croatian"
+msgstr ""
+
+#: Preferences.java:90
 msgid "Danish"
 msgstr "Dansk"
 
-#: Preferences.java:90
+#: Preferences.java:91
 msgid "Dutch"
 msgstr "Nederlandsk"
 
-#: Preferences.java:91
+#: Preferences.java:92
 msgid "English"
 msgstr "Engelsk"
 
-#: Preferences.java:92
-msgid "Estonian"
-msgstr ""
-
 #: Preferences.java:93
+msgid "Estonian"
+msgstr "Estisk"
+
+#: Preferences.java:94
 msgid "Filipino"
 msgstr "Filippinsk"
 
-#: Preferences.java:94
+#: Preferences.java:95
 msgid "French"
 msgstr "Fransk"
 
-#: Preferences.java:95
+#: Preferences.java:96
 msgid "Galician"
 msgstr "Galisisk"
 
-#: Preferences.java:96
+#: Preferences.java:97
 msgid "German"
 msgstr "Tysk"
 
-#: Preferences.java:97
+#: Preferences.java:98
 msgid "Greek"
 msgstr "Gresk"
 
-#: Preferences.java:98
-msgid "Hindi"
-msgstr ""
-
 #: Preferences.java:99
+msgid "Hindi"
+msgstr "Hindi"
+
+#: Preferences.java:100
 msgid "Hungarian"
 msgstr "Ungarsk"
 
-#: Preferences.java:100
-msgid "Indonesian"
-msgstr ""
-
 #: Preferences.java:101
+msgid "Indonesian"
+msgstr "Indonesisk"
+
+#: Preferences.java:102
 msgid "Italian"
 msgstr "Italiensk"
 
-#: Preferences.java:102
+#: Preferences.java:103
 msgid "Japanese"
 msgstr "Japansk"
 
-#: Preferences.java:103
-msgid "Korean"
-msgstr ""
-
 #: Preferences.java:104
+msgid "Korean"
+msgstr "Koreansk"
+
+#: Preferences.java:105
 msgid "Latvian"
 msgstr "Latvisk"
 
-#: Preferences.java:105
-msgid "Lithuaninan"
-msgstr ""
-
 #: Preferences.java:106
-msgid "Marathi"
-msgstr ""
+msgid "Lithuaninan"
+msgstr "Litauisk"
 
 #: Preferences.java:107
-msgid "Norwegian"
-msgstr ""
+msgid "Marathi"
+msgstr "Marathi"
 
 #: Preferences.java:108
+msgid "Norwegian"
+msgstr "Norsk"
+
+#: Preferences.java:109
 msgid "Persian"
 msgstr "Persisk"
 
-#: Preferences.java:109
+#: Preferences.java:110
 msgid "Polish"
-msgstr ""
+msgstr "Polsk"
 
-#: Preferences.java:110 Preferences.java:111
+#: Preferences.java:111 Preferences.java:112
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugisisk"
 
-#: Preferences.java:112
+#: Preferences.java:113
 msgid "Romanian"
 msgstr "Rumensk"
 
-#: Preferences.java:113
-msgid "Russian"
-msgstr ""
-
 #: Preferences.java:114
+msgid "Russian"
+msgstr "Russisk"
+
+#: Preferences.java:115
 msgid "Spanish"
 msgstr "Spansk"
 
-#: Preferences.java:115
+#: Preferences.java:116
 msgid "Tamil"
+msgstr "Tamilsk"
+
+#: Preferences.java:117
+msgid "Vietnamese"
 msgstr ""
 
-#: Preferences.java:218
+#: Preferences.java:223
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1626,16 +1600,16 @@ msgstr ""
 "Kunne ikke lese standard innstillinger.\n"
 "Du må installere Arduino på nytt."
 
-#: Preferences.java:250
+#: Preferences.java:255
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "Klarte ikke å lese innstillinger fra {0}"
 
-#: Preferences.java:269
+#: Preferences.java:274
 msgid "Error reading preferences"
 msgstr "Feil under lesing av innstillinger"
 
-#: Preferences.java:271
+#: Preferences.java:276
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1644,67 +1618,67 @@ msgstr ""
 "Feil ved lesing av filen med innstillinger. Vennligst slett (eller flytt)\n"
 "{0} og start Arduino på nytt."
 
-#: Preferences.java:307
+#: Preferences.java:312
 msgid "Sketchbook location:"
 msgstr "Skissebok plassering:"
 
-#: Preferences.java:322
+#: Preferences.java:327
 msgid "Select new sketchbook location"
 msgstr "Velg en ny plassering for skisseboken"
 
-#: Preferences.java:345
+#: Preferences.java:350
 msgid "Editor language: "
-msgstr ""
+msgstr "Redigeringsspråk: "
 
-#: Preferences.java:350 Preferences.java:366
+#: Preferences.java:355 Preferences.java:371
 msgid "  (requires restart of Arduino)"
 msgstr "  (krever omstart av Arduino)"
 
-#: Preferences.java:362
+#: Preferences.java:367
 msgid "Editor font size: "
 msgstr "Skriftstørrelse for redigeringsprogrammet: "
 
-#: Preferences.java:379
+#: Preferences.java:384
 msgid "Show verbose output during: "
 msgstr "Vis detaljert informasjon under: "
 
-#: Preferences.java:381
+#: Preferences.java:386
 msgid "compilation "
 msgstr "kompilering "
 
-#: Preferences.java:383
+#: Preferences.java:388
 msgid "upload"
 msgstr "last opp"
 
-#: Preferences.java:392
+#: Preferences.java:397
 msgid "Verify code after upload"
 msgstr "Sjekk kode etter opplasting"
 
-#: Preferences.java:401
+#: Preferences.java:406
 msgid "Use external editor"
 msgstr "Bruk eksternt redigeringsprogram"
 
-#: Preferences.java:411
+#: Preferences.java:416
 msgid "Check for updates on startup"
 msgstr "Se etter oppdateringer ved oppstart"
 
-#: Preferences.java:420
+#: Preferences.java:425
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "Oppdater skissefilene til ny filtype under lagring (.pde -> .ino)"
 
-#: Preferences.java:431
+#: Preferences.java:436
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Automatisk assosier .ino filer med Arduino"
 
-#: Preferences.java:441
+#: Preferences.java:446
 msgid "More preferences can be edited directly in the file"
 msgstr "Flere instillinger kan redigeres direkte i filen"
 
-#: Preferences.java:470
+#: Preferences.java:475
 msgid "(edit only when Arduino is not running)"
 msgstr "(redigeres kun når Arduino ikke kjører)"
 
-#: Preferences.java:617
+#: Preferences.java:622
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "ser bort fra ugyldig skriftstørrelse {0}"

@@ -79,7 +79,7 @@ msgstr "Oldalbeállítás"
 msgid "Print"
 msgstr "Nyomtatás"
 
-#: Editor.java:576 Preferences.java:287
+#: Editor.java:576 Preferences.java:292
 msgid "Preferences"
 msgstr "Beállítások"
 
@@ -328,7 +328,7 @@ msgstr "Átmozgatás"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:253
 msgid "Error"
 msgstr "Hiba"
 
@@ -1108,9 +1108,6 @@ msgid ""
 "EthernetClient.\n"
 "\n"
 msgstr ""
-"\n"
-"Az Arduino 1.0-ban az Ethernet függvény Udp osztály új neve: EthernetUdp.\n"
-"\n"
 
 #: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
@@ -1498,110 +1495,118 @@ msgid "Chinese Traditional"
 msgstr ""
 
 #: Preferences.java:89
+msgid "Croatian"
+msgstr ""
+
+#: Preferences.java:90
 msgid "Danish"
 msgstr "Dán"
 
-#: Preferences.java:90
+#: Preferences.java:91
 msgid "Dutch"
 msgstr "Holland"
 
-#: Preferences.java:91
+#: Preferences.java:92
 msgid "English"
 msgstr "Angol"
 
-#: Preferences.java:92
+#: Preferences.java:93
 msgid "Estonian"
 msgstr ""
 
-#: Preferences.java:93
+#: Preferences.java:94
 msgid "Filipino"
 msgstr "Fülöp-szigetek"
 
-#: Preferences.java:94
+#: Preferences.java:95
 msgid "French"
 msgstr "Francia"
 
-#: Preferences.java:95
+#: Preferences.java:96
 msgid "Galician"
 msgstr "Gall"
 
-#: Preferences.java:96
+#: Preferences.java:97
 msgid "German"
 msgstr "Német"
 
-#: Preferences.java:97
+#: Preferences.java:98
 msgid "Greek"
 msgstr "Görög"
 
-#: Preferences.java:98
+#: Preferences.java:99
 msgid "Hindi"
 msgstr ""
 
-#: Preferences.java:99
+#: Preferences.java:100
 msgid "Hungarian"
 msgstr "Magyar"
 
-#: Preferences.java:100
+#: Preferences.java:101
 msgid "Indonesian"
 msgstr ""
 
-#: Preferences.java:101
+#: Preferences.java:102
 msgid "Italian"
 msgstr "Olasz"
 
-#: Preferences.java:102
+#: Preferences.java:103
 msgid "Japanese"
 msgstr "Japán"
 
-#: Preferences.java:103
+#: Preferences.java:104
 msgid "Korean"
 msgstr ""
 
-#: Preferences.java:104
+#: Preferences.java:105
 msgid "Latvian"
 msgstr "Lett"
 
-#: Preferences.java:105
+#: Preferences.java:106
 msgid "Lithuaninan"
 msgstr ""
 
-#: Preferences.java:106
+#: Preferences.java:107
 msgid "Marathi"
 msgstr ""
 
-#: Preferences.java:107
+#: Preferences.java:108
 msgid "Norwegian"
 msgstr ""
 
-#: Preferences.java:108
+#: Preferences.java:109
 msgid "Persian"
 msgstr "Perzsa"
 
-#: Preferences.java:109
+#: Preferences.java:110
 msgid "Polish"
 msgstr ""
 
-#: Preferences.java:110 Preferences.java:111
+#: Preferences.java:111 Preferences.java:112
 msgid "Portuguese"
 msgstr ""
 
-#: Preferences.java:112
+#: Preferences.java:113
 msgid "Romanian"
 msgstr "Román"
 
-#: Preferences.java:113
+#: Preferences.java:114
 msgid "Russian"
 msgstr "Orosz"
 
-#: Preferences.java:114
+#: Preferences.java:115
 msgid "Spanish"
 msgstr "Spanyol"
 
-#: Preferences.java:115
+#: Preferences.java:116
 msgid "Tamil"
 msgstr ""
 
-#: Preferences.java:218
+#: Preferences.java:117
+msgid "Vietnamese"
+msgstr ""
+
+#: Preferences.java:223
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1609,16 +1614,16 @@ msgstr ""
 "Az alapértelezett beállítások nem olvashatóak\n"
 "Az Arduino újratelepítése szükséges."
 
-#: Preferences.java:250
+#: Preferences.java:255
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "A beállítások nem olvashatóak: {0}"
 
-#: Preferences.java:269
+#: Preferences.java:274
 msgid "Error reading preferences"
 msgstr "Alapbeállítások olvasása közben hiba lépett fel"
 
-#: Preferences.java:271
+#: Preferences.java:276
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1627,67 +1632,67 @@ msgstr ""
 "Hiba a beállítások olvasása során. Kérem törölje (vagy mozgassa el) a\n"
 "{0} file-t és indítsa újra az Arduino-t!"
 
-#: Preferences.java:307
+#: Preferences.java:312
 msgid "Sketchbook location:"
 msgstr "SketchBook helye:"
 
-#: Preferences.java:322
+#: Preferences.java:327
 msgid "Select new sketchbook location"
 msgstr "Válasszon új SketchBook mappát"
 
-#: Preferences.java:345
+#: Preferences.java:350
 msgid "Editor language: "
 msgstr ""
 
-#: Preferences.java:350 Preferences.java:366
+#: Preferences.java:355 Preferences.java:371
 msgid "  (requires restart of Arduino)"
 msgstr "  (Arduino újraindítása szükséges)"
 
-#: Preferences.java:362
+#: Preferences.java:367
 msgid "Editor font size: "
 msgstr "Szerkesztő betűméret:"
 
-#: Preferences.java:379
+#: Preferences.java:384
 msgid "Show verbose output during: "
 msgstr "Log mutatása:"
 
-#: Preferences.java:381
+#: Preferences.java:386
 msgid "compilation "
 msgstr "fordításkor "
 
-#: Preferences.java:383
+#: Preferences.java:388
 msgid "upload"
 msgstr "feltöltéskor"
 
-#: Preferences.java:392
+#: Preferences.java:397
 msgid "Verify code after upload"
 msgstr "Kód ellenőrzés feltöltés után"
 
-#: Preferences.java:401
+#: Preferences.java:406
 msgid "Use external editor"
 msgstr "Külső szerkesztő használata"
 
-#: Preferences.java:411
+#: Preferences.java:416
 msgid "Check for updates on startup"
 msgstr "Újabb verzió ellenőrzése indításkor"
 
-#: Preferences.java:420
+#: Preferences.java:425
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "Sketch frissítése az új kiterjesztéssel (.pde -> .ino)"
 
-#: Preferences.java:431
+#: Preferences.java:436
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Automatikus kiterjesztés-hozzárendelés: .ino->Arduino"
 
-#: Preferences.java:441
+#: Preferences.java:446
 msgid "More preferences can be edited directly in the file"
 msgstr "További számos beállítás elérhető a file közvetlen szerkesztésével"
 
-#: Preferences.java:470
+#: Preferences.java:475
 msgid "(edit only when Arduino is not running)"
 msgstr "(csak akkor szerkeszthető, ha az Arduino nem fut)"
 
-#: Preferences.java:617
+#: Preferences.java:622
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "hibás fontméret kihagyása: {0}"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 10:24-0400\n"
-"PO-Revision-Date: 2012-04-22 01:32+0900\n"
+"PO-Revision-Date: 2012-06-01 00:02+0900\n"
 "Last-Translator: Shigeru KANEMOTO <c2drQHN3aXRjaC1zY2llbmNlLmNvbQ==>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr "プリンタの設定..."
 msgid "Print"
 msgstr "印刷..."
 
-#: Editor.java:576 Preferences.java:287
+#: Editor.java:576 Preferences.java:292
 msgid "Preferences"
 msgstr "環境設定"
 
@@ -327,7 +327,7 @@ msgstr "移動中"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:253
 msgid "Error"
 msgstr "エラー"
 
@@ -531,11 +531,13 @@ msgid ""
 "Serial port ''{0}'' already in use. Try quitting any programs that may be "
 "using it."
 msgstr ""
+"シリアルポート「{0}」は、他のソフトウェアで使われています。"
+"シリアルポートを使っている可能性の有るソフトウェアを終了させてみてください。"
 
 #: Serial.java:124
 #, java-format
 msgid "Error touching serial port ''{0}''."
-msgstr ""
+msgstr "シリアルポート「{0}」をタッチできませんでした。"
 
 #: Serial.java:173
 #, java-format
@@ -973,7 +975,7 @@ msgstr ""
 
 #: debug/AvrdudeUploader.java:96
 msgid "Forcing reset using 1200bps open/close on port "
-msgstr ""
+msgstr "シリアルポートを1200bpsで開閉する事により、リセットを行なっています。"
 
 #: debug/AvrdudeUploader.java:151
 msgid ""
@@ -981,6 +983,12 @@ msgid ""
 "correct port selected.  If it is correct, try pressing the board's reset "
 "button after initiating the upload."
 msgstr ""
+"選択されたシリアルポートには、Leonardoが接続されていません。"
+"シリアルポートを正しく選択しているかどうかを確認してください。"
+"もしも正しく選択している場合には、次の方法を試してください。"
+"Leonardoのリセットボタンを指で押し、"
+"押したままの状態でArduino IDEの「書き込み」ボタンをクリックし、"
+"リセットボタンから指を離します。"
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -1113,9 +1121,6 @@ msgid ""
 "EthernetClient.\n"
 "\n"
 msgstr ""
-"\n"
-"Arduino 1.0以降、Ethernetライブラリの「Udp」クラスは、「EthernetUdp」に名称変更されました。\n"
-"\n"
 
 #: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
@@ -1149,11 +1154,11 @@ msgstr ""
 
 #: debug/Compiler.java:510
 msgid "'Mouse' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "「Mouse」はArduino Leonardoだけで使えます。"
 
 #: debug/Compiler.java:515
 msgid "'Keyboard' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "「Keyboard」はArduino Leonardoだけで使えます。"
 
 #: EditorConsole.java:152
 msgid "Console Error"
@@ -1485,11 +1490,11 @@ msgstr "パソコンの設定に従う"
 
 #: Preferences.java:84
 msgid "Arabic"
-msgstr ""
+msgstr "アラビア語"
 
 #: Preferences.java:85
 msgid "Aragonese"
-msgstr ""
+msgstr "アラゴン語"
 
 #: Preferences.java:86
 msgid "Catalan"
@@ -1504,110 +1509,118 @@ msgid "Chinese Traditional"
 msgstr "中国語（繁体字）"
 
 #: Preferences.java:89
+msgid "Croatian"
+msgstr ""
+
+#: Preferences.java:90
 msgid "Danish"
 msgstr "デンマーク語"
 
-#: Preferences.java:90
+#: Preferences.java:91
 msgid "Dutch"
 msgstr "オランダ語"
 
-#: Preferences.java:91
+#: Preferences.java:92
 msgid "English"
 msgstr "英語"
 
-#: Preferences.java:92
-msgid "Estonian"
-msgstr ""
-
 #: Preferences.java:93
+msgid "Estonian"
+msgstr "エストニア語"
+
+#: Preferences.java:94
 msgid "Filipino"
 msgstr "フィリピン語"
 
-#: Preferences.java:94
+#: Preferences.java:95
 msgid "French"
 msgstr "フランス語"
 
-#: Preferences.java:95
+#: Preferences.java:96
 msgid "Galician"
 msgstr "ガリシア語"
 
-#: Preferences.java:96
+#: Preferences.java:97
 msgid "German"
 msgstr "ドイツ語"
 
-#: Preferences.java:97
+#: Preferences.java:98
 msgid "Greek"
 msgstr "ギリシア語"
 
-#: Preferences.java:98
-msgid "Hindi"
-msgstr ""
-
 #: Preferences.java:99
+msgid "Hindi"
+msgstr "ヒンディー語"
+
+#: Preferences.java:100
 msgid "Hungarian"
 msgstr "ハンガリー語"
 
-#: Preferences.java:100
-msgid "Indonesian"
-msgstr ""
-
 #: Preferences.java:101
+msgid "Indonesian"
+msgstr "インドネシア語"
+
+#: Preferences.java:102
 msgid "Italian"
 msgstr "イタリア語"
 
-#: Preferences.java:102
+#: Preferences.java:103
 msgid "Japanese"
 msgstr "日本語"
 
-#: Preferences.java:103
-msgid "Korean"
-msgstr ""
-
 #: Preferences.java:104
+msgid "Korean"
+msgstr "韓国語"
+
+#: Preferences.java:105
 msgid "Latvian"
 msgstr "ラトビア語"
 
-#: Preferences.java:105
-msgid "Lithuaninan"
-msgstr ""
-
 #: Preferences.java:106
-msgid "Marathi"
-msgstr ""
+msgid "Lithuaninan"
+msgstr "リトアニア語"
 
 #: Preferences.java:107
-msgid "Norwegian"
-msgstr ""
+msgid "Marathi"
+msgstr "マラーティ語"
 
 #: Preferences.java:108
+msgid "Norwegian"
+msgstr "ノルウェイ語"
+
+#: Preferences.java:109
 msgid "Persian"
 msgstr "ペルシャ語"
 
-#: Preferences.java:109
+#: Preferences.java:110
 msgid "Polish"
-msgstr ""
+msgstr "ポーランド語"
 
-#: Preferences.java:110 Preferences.java:111
+#: Preferences.java:111 Preferences.java:112
 msgid "Portuguese"
 msgstr "ポルトガル語"
 
-#: Preferences.java:112
+#: Preferences.java:113
 msgid "Romanian"
 msgstr "ルーマニア語"
 
-#: Preferences.java:113
+#: Preferences.java:114
 msgid "Russian"
 msgstr "ロシア語"
 
-#: Preferences.java:114
+#: Preferences.java:115
 msgid "Spanish"
 msgstr "スペイン語"
 
-#: Preferences.java:115
+#: Preferences.java:116
 msgid "Tamil"
+msgstr "タミル語"
+
+#: Preferences.java:117
+msgid "Vietnamese"
 msgstr ""
 
-#: Preferences.java:218
+#: Preferences.java:223
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1615,16 +1628,16 @@ msgstr ""
 "既定の設定を読み込むことができませんでした。\n"
 "Arduino IDEをもう一度インストールしてください。"
 
-#: Preferences.java:250
+#: Preferences.java:255
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "「{0}」から設定を読み込めませんでした。"
 
-#: Preferences.java:269
+#: Preferences.java:274
 msgid "Error reading preferences"
 msgstr "設定ファイルを読み込む際にエラーが発生しました。"
 
-#: Preferences.java:271
+#: Preferences.java:276
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1633,67 +1646,67 @@ msgstr ""
 "初期設定ファイルを読み込む際にエラーが発生しました。"
 "「{0}」を削除または移動してから、Arduino IDEを再起動してください。"
 
-#: Preferences.java:307
+#: Preferences.java:312
 msgid "Sketchbook location:"
 msgstr "スケッチブックの保存場所："
 
-#: Preferences.java:322
+#: Preferences.java:327
 msgid "Select new sketchbook location"
 msgstr "スケッチブックの保存場所を決める"
 
-#: Preferences.java:345
+#: Preferences.java:350
 msgid "Editor language: "
 msgstr "言語設定："
 
-#: Preferences.java:350 Preferences.java:366
+#: Preferences.java:355 Preferences.java:371
 msgid "  (requires restart of Arduino)"
 msgstr "  変更の反映にはArduino IDEの再起動が必要"
 
-#: Preferences.java:362
+#: Preferences.java:367
 msgid "Editor font size: "
 msgstr "エディタの文字の大きさ："
 
-#: Preferences.java:379
+#: Preferences.java:384
 msgid "Show verbose output during: "
 msgstr "より詳細な情報を表示する："
 
-#: Preferences.java:381
+#: Preferences.java:386
 msgid "compilation "
 msgstr "コンパイル "
 
-#: Preferences.java:383
+#: Preferences.java:388
 msgid "upload"
 msgstr "書き込み"
 
-#: Preferences.java:392
+#: Preferences.java:397
 msgid "Verify code after upload"
 msgstr "書き込みを検証する"
 
-#: Preferences.java:401
+#: Preferences.java:406
 msgid "Use external editor"
 msgstr "外部のエディタを使用する"
 
-#: Preferences.java:411
+#: Preferences.java:416
 msgid "Check for updates on startup"
 msgstr "起動時に最新バージョンの有無をチェックする"
 
-#: Preferences.java:420
+#: Preferences.java:425
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "スケッチを保存する際に、拡張子を.pdeから.inoに変更する"
 
-#: Preferences.java:431
+#: Preferences.java:436
 msgid "Automatically associate .ino files with Arduino"
 msgstr ".inoファイルをArduino IDEに関連づける"
 
-#: Preferences.java:441
+#: Preferences.java:446
 msgid "More preferences can be edited directly in the file"
 msgstr "以下のファイルを直接編集すれば、より多くの設定を行うことができます。"
 
-#: Preferences.java:470
+#: Preferences.java:475
 msgid "(edit only when Arduino is not running)"
 msgstr "編集する際には、Arduino IDEを終了させておいてください。"
 
-#: Preferences.java:617
+#: Preferences.java:622
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "フォントサイズの指定「{0}」が異常なので無視します。"

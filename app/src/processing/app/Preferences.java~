@@ -113,9 +113,7 @@ public class Preferences {
                         "Română" + " (" + _("Romanian") + ")",
                         "Русский" + " (" + _("Russian") + ")",
                         "Español" + " (" + _("Spanish") + ")",
-                        "தமிழ்" + " (" + _("Tamil") + ")", 
-                        "Tiếng Việt" + " " + _("Vietnamese") + ")"};
-msgstr 
+                        "தமிழ்" + " (" + _("Tamil") + ")"};
   String[] languagesISO = {
                         "",
                         "ar",
@@ -150,8 +148,7 @@ msgstr
                         "ro",
                         "ru",
                         "es",
-                        "ta",
-                        "vi"};
+                        "ta"};
   
   /**
    * Standardized width for buttons. Mac OS X 10.3 wants 70 as its default,

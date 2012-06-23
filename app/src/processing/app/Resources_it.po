@@ -79,7 +79,7 @@ msgstr "Imposta pagina"
 msgid "Print"
 msgstr "Stampa"
 
-#: Editor.java:576 Preferences.java:287
+#: Editor.java:576 Preferences.java:292
 msgid "Preferences"
 msgstr "Preferenze"
 
@@ -328,7 +328,7 @@ msgstr "Sto spostando"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:253
 msgid "Error"
 msgstr "Errore"
 
@@ -1111,9 +1111,6 @@ msgid ""
 "EthernetClient.\n"
 "\n"
 msgstr ""
-"\n"
-"Da Arduno 1.0, la classe Udp nella libreria Ethernet è stata rinominata EthernerClient.\n"
-"\n"
 
 #: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
@@ -1510,110 +1507,118 @@ msgid "Chinese Traditional"
 msgstr ""
 
 #: Preferences.java:89
+msgid "Croatian"
+msgstr ""
+
+#: Preferences.java:90
 msgid "Danish"
 msgstr "Danese"
 
-#: Preferences.java:90
+#: Preferences.java:91
 msgid "Dutch"
 msgstr "Olandese"
 
-#: Preferences.java:91
+#: Preferences.java:92
 msgid "English"
 msgstr "Inglese"
 
-#: Preferences.java:92
+#: Preferences.java:93
 msgid "Estonian"
 msgstr ""
 
-#: Preferences.java:93
+#: Preferences.java:94
 msgid "Filipino"
 msgstr "Filippino"
 
-#: Preferences.java:94
+#: Preferences.java:95
 msgid "French"
 msgstr "Francese"
 
-#: Preferences.java:95
+#: Preferences.java:96
 msgid "Galician"
 msgstr "Galiziano"
 
-#: Preferences.java:96
+#: Preferences.java:97
 msgid "German"
 msgstr "Tedesco"
 
-#: Preferences.java:97
+#: Preferences.java:98
 msgid "Greek"
 msgstr "Greco"
 
-#: Preferences.java:98
+#: Preferences.java:99
 msgid "Hindi"
 msgstr ""
 
-#: Preferences.java:99
+#: Preferences.java:100
 msgid "Hungarian"
 msgstr "Ungherese"
 
-#: Preferences.java:100
+#: Preferences.java:101
 msgid "Indonesian"
 msgstr ""
 
-#: Preferences.java:101
+#: Preferences.java:102
 msgid "Italian"
 msgstr "Italiano"
 
-#: Preferences.java:102
+#: Preferences.java:103
 msgid "Japanese"
 msgstr "Giapponese"
 
-#: Preferences.java:103
+#: Preferences.java:104
 msgid "Korean"
 msgstr ""
 
-#: Preferences.java:104
+#: Preferences.java:105
 msgid "Latvian"
 msgstr "Lettone"
 
-#: Preferences.java:105
+#: Preferences.java:106
 msgid "Lithuaninan"
 msgstr ""
 
-#: Preferences.java:106
+#: Preferences.java:107
 msgid "Marathi"
 msgstr ""
 
-#: Preferences.java:107
+#: Preferences.java:108
 msgid "Norwegian"
 msgstr ""
 
-#: Preferences.java:108
+#: Preferences.java:109
 msgid "Persian"
 msgstr "Persiano"
 
-#: Preferences.java:109
+#: Preferences.java:110
 msgid "Polish"
 msgstr ""
 
-#: Preferences.java:110 Preferences.java:111
+#: Preferences.java:111 Preferences.java:112
 msgid "Portuguese"
 msgstr ""
 
-#: Preferences.java:112
+#: Preferences.java:113
 msgid "Romanian"
 msgstr "Rumeno"
 
-#: Preferences.java:113
+#: Preferences.java:114
 msgid "Russian"
 msgstr ""
 
-#: Preferences.java:114
+#: Preferences.java:115
 msgid "Spanish"
 msgstr "Spagnolo"
 
-#: Preferences.java:115
+#: Preferences.java:116
 msgid "Tamil"
 msgstr ""
 
-#: Preferences.java:218
+#: Preferences.java:117
+msgid "Vietnamese"
+msgstr ""
+
+#: Preferences.java:223
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1621,16 +1626,16 @@ msgstr ""
 "Impossibile leggere le impostazioni predefinite.\n"
 "E' necessario reinstallare Arduino."
 
-#: Preferences.java:250
+#: Preferences.java:255
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "Impossibile leggere le preferenze da {0}"
 
-#: Preferences.java:269
+#: Preferences.java:274
 msgid "Error reading preferences"
 msgstr "Errore nella lettura delle preferenze"
 
-#: Preferences.java:271
+#: Preferences.java:276
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1639,67 +1644,67 @@ msgstr ""
 "Errore nella letture del file di preferenze. Per favore eliminare (spostare)\n"
 "{0} e riavviare Arduino."
 
-#: Preferences.java:307
+#: Preferences.java:312
 msgid "Sketchbook location:"
 msgstr "Posizione della cartella degli sketch:"
 
-#: Preferences.java:322
+#: Preferences.java:327
 msgid "Select new sketchbook location"
 msgstr "Selezionare una nuova posizione per la cartella degli Sketch"
 
-#: Preferences.java:345
+#: Preferences.java:350
 msgid "Editor language: "
 msgstr ""
 
-#: Preferences.java:350 Preferences.java:366
+#: Preferences.java:355 Preferences.java:371
 msgid "  (requires restart of Arduino)"
 msgstr ""
 
-#: Preferences.java:362
+#: Preferences.java:367
 msgid "Editor font size: "
 msgstr "Dimensioni font dell'editor:"
 
-#: Preferences.java:379
+#: Preferences.java:384
 msgid "Show verbose output during: "
 msgstr "Mostra output verboso durante: "
 
-#: Preferences.java:381
+#: Preferences.java:386
 msgid "compilation "
 msgstr "compilazione "
 
-#: Preferences.java:383
+#: Preferences.java:388
 msgid "upload"
 msgstr "caricamento"
 
-#: Preferences.java:392
+#: Preferences.java:397
 msgid "Verify code after upload"
 msgstr "Verifica il codice dopo il caricamento"
 
-#: Preferences.java:401
+#: Preferences.java:406
 msgid "Use external editor"
 msgstr "Usa un editor esterno"
 
-#: Preferences.java:411
+#: Preferences.java:416
 msgid "Check for updates on startup"
 msgstr "Controlla gli aggiornamenti all'avvio"
 
-#: Preferences.java:420
+#: Preferences.java:425
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "Aggiorna l'estensione degli sketch durante il salvataggio (.pde -> .ino)"
 
-#: Preferences.java:431
+#: Preferences.java:436
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Associa automaticamente i file .ino con Arduino"
 
-#: Preferences.java:441
+#: Preferences.java:446
 msgid "More preferences can be edited directly in the file"
 msgstr "Ulteriori preferenze possono essere modificate direttamente nel file"
 
-#: Preferences.java:470
+#: Preferences.java:475
 msgid "(edit only when Arduino is not running)"
 msgstr "(modificabile solo quando Arduino non è in esecuzione)"
 
-#: Preferences.java:617
+#: Preferences.java:622
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "sto ignorando la dimensione del font non valida {0}"

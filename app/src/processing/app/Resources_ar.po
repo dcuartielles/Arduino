@@ -24,11 +24,11 @@ msgstr ""
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
-msgstr "لا يوجد ملفات اضيفت لشيفرة البرمجية."
+msgstr "لا يوجد ملفات اضيفت للشيفرة البرمجية."
 
 #: Editor.java:369 Sketch.java:996
 msgid "One file added to the sketch."
-msgstr "اضيف ملف واحد لشيفرة البرمجية"
+msgstr "اضيف ملف واحد للشيفرة البرمجية"
 
 #: Editor.java:373
 #, java-format
@@ -84,7 +84,7 @@ msgstr "اعدادات الصفحة"
 msgid "Print"
 msgstr "اطبع"
 
-#: Editor.java:576 Preferences.java:287
+#: Editor.java:576 Preferences.java:292
 msgid "Preferences"
 msgstr "تفضيلات"
 
@@ -98,7 +98,7 @@ msgstr "الشيفرة البرمجية"
 
 #: Editor.java:602
 msgid "Verify / Compile"
-msgstr "تدقيق \\ ترجم"
+msgstr "تدقيق / ترجم"
 
 #: Editor.java:629
 msgid "Import Library..."
@@ -154,7 +154,7 @@ msgstr "مساعدة"
 
 #: Editor.java:1041
 msgid "Getting Started"
-msgstr "الشروع في العمل"
+msgstr "الشروع في البدء"
 
 #: Editor.java:1049
 msgid "Environment"
@@ -242,11 +242,11 @@ msgstr "...ابحث"
 
 #: Editor.java:1235
 msgid "Find Next"
-msgstr "ابحث التالي"
+msgstr "ابحث  التالي"
 
 #: Editor.java:1245
 msgid "Find Previous"
-msgstr "ابحث السابق"
+msgstr "ابحث  السابق"
 
 #: Editor.java:1255
 msgid "Use Selection For Find"
@@ -325,7 +325,7 @@ msgstr "نقل"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:253
 msgid "Error"
 msgstr "خطأ"
 
@@ -369,10 +369,12 @@ msgid ""
 "Serial port {0} not found.\n"
 "Retry the upload with another serial port?"
 msgstr ""
+"المنفذ التسلسلي {0} لم يتم العثور عليه.\n"
+"حاول الرفع باستخدام منفذ تلسلسي آخر ?"
 
 #: Editor.java:2331
 msgid "Uploading to I/O Board..."
-msgstr "جاري التحميل إلى اللوحة"
+msgstr "جاري التحميل إلى اللوحة دخل/خرج ..."
 
 #: Editor.java:2348 Editor.java:2384
 msgid "Done uploading."
@@ -384,7 +386,7 @@ msgstr "الغي التحميل"
 
 #: Editor.java:2420
 msgid "Save changes before export?"
-msgstr "هل تريد/ين حفظ التغييرات قبل التصدير؟"
+msgstr " حفظ التغييرات قبل التصدير؟"
 
 #: Editor.java:2435
 msgid "Export canceled, changes must first be saved."
@@ -576,7 +578,7 @@ msgstr "التنسيق التلقائي الغي: كثير من الاقواس �
 
 #: tools/AutoFormat.java:922
 msgid "Auto Format Canceled: Too many left parentheses."
-msgstr "التنسيق التلقائي الغي: كثير من الاقواس لجهة الشمال"
+msgstr "التنسيق التلقائي الغي: كثير من الاقواس لجهة اليسار"
 
 #: tools/AutoFormat.java:928
 msgid "Auto Format Canceled: Too many right curly braces."
@@ -584,7 +586,7 @@ msgstr "التنسيق التلقائي الغي: كثير من الاقواس �
 
 #: tools/AutoFormat.java:931
 msgid "Auto Format Canceled: Too many left curly braces."
-msgstr "التنسيق التلقائي الغي: كثير من الاقواس الملتوية لجهة الشمال"
+msgstr "التنسيق التلقائي الغي: كثير من الاقواس الملتوية لجهة اليسار"
 
 #: tools/AutoFormat.java:941
 msgid "Auto Format finished."
@@ -604,7 +606,7 @@ msgid ""
 "An error occurred while trying to fix the file encoding.\n"
 "Do not attempt to save this sketch as it may overwrite\n"
 "the old version. Use Open to re-open the sketch and try again.\n"
-msgstr "خطأ اثناء محاولة تصحيح ترميز الملف.\nلا تقم بحفظ هذا الملف حيث يمكن ان يكتب فوقه الاصدار القديم\nاستخدم فتح للإعادة. فتح السكتس وحاول مرة اخرى"
+msgstr "خطأ اثناء محاولة تصحيح ترميز الملف.\nلا تقم بحفظ هذا الملف حيث يمكن ان يكتب فوقه الاصدار القديم\nاستخدم فتح للإعادة. فتح الشيفرة البرمجية وحاول مرة اخرى"
 
 #: tools/Archiver.java:48
 msgid "Archive Sketch"
@@ -622,7 +624,7 @@ msgstr "لا يمكن ارشفة الشيفرة البرمجية"
 msgid ""
 "Archiving the sketch has been canceled because\n"
 "the sketch couldn't save properly."
-msgstr "ارشفة الشيفرة البرمجية الغيت لأنه\n الشيفرة البرمجية لا يمكن حفظه بشكل مناسب"
+msgstr "ارشفة الشيفرة البرمجية الغيت لأنه\n الشيفرة البرمجية لا يمكن حفظها بشكل مناسب"
 
 #: tools/Archiver.java:109
 msgid "Archive sketch as:"
@@ -747,7 +749,7 @@ msgstr "هل انت متأكد انك تريد حذف الشيفرة البرم�
 #: Sketch.java:592
 #, java-format
 msgid "Are you sure you want to delete \"{0}\"?"
-msgstr "هل انت متأكد انك تريد حذف \"{0}\"؟"
+msgstr "هل انت متأكد انك تريد الحذف \"{0}\"؟"
 
 #: Sketch.java:595 EditorHeader.java:314
 msgid "Delete"
@@ -785,7 +787,7 @@ msgid ""
 "disable this in the Preferences dialog.\n"
 "\n"
 "Save sketch and update its extension?"
-msgstr "في Arduino 1.0 الامتداد التلقائي قد تغير\nمن .pde الى .ino. الشيفرة البرمجيةات الجديدة سوف تستخدم الامتداد الجديد -\nايضا الملفات الملفات المنشأة بواسطة حفظ بإسم - الامتداد للملفات الموجودة\nسوف يحدث عند الحفظ. لكن يمكنك ان تتحكم بذلك من قائمة الخصائص\nحفظ الشيفرة البرمجية وتحديث الامتداد ؟"
+msgstr "في Arduino 1.0 الامتداد التلقائي قد تغير\nمن .pde الى .ino. الشيفرة البرمجية الجديدة سوف تستخدم الامتداد الجديد -\nايضا الملفات الملفات المنشأة بواسطة حفظ بإسم - الامتداد للملفات الموجودة\nسوف يحدث عند الحفظ. لكن يمكنك ان تتحكم بذلك من قائمة الخصائص\nحفظ الشيفرة البرمجية وتحديث الامتداد ؟"
 
 #: Sketch.java:750
 msgid ".pde -> .ino"
@@ -799,7 +801,7 @@ msgstr "حفظ مجلد الشيفرة البرمجية الى ..."
 msgid ""
 "You can't save the sketch as \"{0}\"\n"
 "because the sketch already has a .cpp file with that name."
-msgstr "\"{0}\"لا يمكنك حبظ الشيفرة البرمجية بـ\nلان شيفرة البرمجية موجود فعلا."
+msgstr "\"{0}\"لا يمكنك حفظ الشيفرة البرمجية بـ\nلان الشيفرة البرمجية بالفعل يوجد ملف .cpp بنفس الاسم."
 
 #: Sketch.java:886
 msgid "How very Borges of you"
@@ -809,11 +811,11 @@ msgstr "ما هذه السخافة"
 msgid ""
 "You cannot save the sketch into a folder\n"
 "inside itself. This would go on forever."
-msgstr "لا يمكن حفظ الشيفرة البرمجية الى نفسه\nربما يسير الى الابد."
+msgstr "لا يمكن حفظ الشيفرة البرمجية الى مجلد داخل نفسه\nربما يسير الى الابد."
 
 #: Sketch.java:979
 msgid "Select an image or other data file to copy to your sketch"
-msgstr "اختيار الصورة او ملف لنسخه الى الشيفرة البرمجية"
+msgstr "اختيار الصورة او ملف بيانات أخرى لنسخه الى الشيفرة البرمجية"
 
 #: Sketch.java:1047
 #, java-format
@@ -851,7 +853,7 @@ msgstr "مجلد البناء غير موجود او انه لايمكن الك�
 
 #: Sketch.java:1411
 msgid "Could not find main class"
-msgstr "لا يوجد الكلاس الاساسي"
+msgstr "لا يمكن إيجاد الكلاس الاساسي"
 
 #: Sketch.java:1436
 #, java-format
@@ -880,7 +882,7 @@ msgstr "لا يمكن تحديد حجم البرنامج  {0}"
 msgid ""
 "Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
 "tips on reducing it."
-msgstr "http://www.arduino.cc/en/Guide/Troubleshooting#size الشيفرة البرمجية كبير جدا; راجع\nملاحظات لاختصاره."
+msgstr "http://www.arduino.cc/en/Guide/Troubleshooting#size الشيفرة البرمجية كبير جدا; راجع\nنصائح لاختصاره."
 
 #: Sketch.java:1719
 msgid "Missing the */ from the end of a /* comment */"
@@ -909,8 +911,8 @@ msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
 msgstr ""
-"لا يمكنه اعادة حفظ. الامر خطير,\n"
-"ويجب عليك نسخ النص ولصقه في محرر نصوص اخر."
+"لا يمكنه اعادة حفظ الشيفرة البرمجية. ربما لديك مشكلة في هذا الموضع,\n"
+"و ربما هو الوقت لنسخ النص ولصقه في محرر نصوص آخر."
 
 #: Sketch.java:2025
 msgid ""
@@ -918,9 +920,9 @@ msgid ""
 "of ASCII characters and numbers (but cannot start with a number).\n"
 "They should also be less less than 64 characters long."
 msgstr ""
-"اسم الشيفرة البرمجية تم تغيره. اسم التكتش يجب ان يكون\n"
-"عنصرامن  ASCII او رقم (لكن لا يجوز ان يبدأ رقم).\n"
-"يجب ان يكون اقل من 64 حرف ورقم."
+"اسم الشيفرة البرمجية تم تغيره. الاسم  يجب ان يكون\n"
+"عنصراً من  ترميز الآسكي او رقم (لكن لا يجوز ان يبدأ رقم).\n"
+"يجب ان يكون طوله اقل من 64 حرف ورقم."
 
 #: debug/AvrdudeUploader.java:96
 msgid "Forcing reset using 1200bps open/close on port "
@@ -932,7 +934,7 @@ msgid ""
 "correct port selected.  If it is correct, try pressing the board's reset "
 "button after initiating the upload."
 msgstr ""
-"لا يمكن ايجاد ليوناردو على المنفذ المختار . تأكد انك اخترت المنفذ الصحيح , اذا كان صحيحا جرب زر اعادة التشغيل في اللوحة بعد البدئ في التحميل "
+"لا يمكن ايجاد ليوناردو على المنفذ المختار . تأكد انك اخترت المنفذ الصحيح , اذا كان صحيحا جرب زر اعادة التشغيل في اللوحة بعد البدء في التحميل "
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -964,14 +966,14 @@ msgid ""
 "Troubleshooting#upload for suggestions."
 msgstr ""
 "مشكلة في الرفع الى البورد. راجع http://www.arduino.cc/en/Guide/"
-"Troubleshooting#upload fعلى سبيل الاقتراح ."
+"Troubleshooting#upload على سبيل الاقتراح ."
 
 #: debug/Uploader.java:227
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
 msgstr ""
-"وجد خطأ في المايكرو كونترولر. هل انت متاكد من نوع البورد المختار في قائمة الأدوات"
+"وجد خطأ في المتحكم الصغري. هل انت متاكد من نوع البورد المختار في قائمة الأدوات"
 
 #: debug/Compiler.java:41
 msgid "http://code.google.com/p/arduino/issues/list"
@@ -1032,7 +1034,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"كما في الأدرونو 1.0, Server class في Ethernet أعيد تسميته الى "
+"كما في الأدروينو 1.0, Server class في Ethernet أعيد تسميته الى "
 "EthernetServer.\n"
 "\n"
 
@@ -1061,12 +1063,10 @@ msgid ""
 "EthernetClient.\n"
 "\n"
 msgstr ""
-"\n"
-"كما هو في الأردوينو 1.0 , الـ Udp class في مكتبة Ethernet تم اعادة تسميته الى"
 
 #: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
-msgstr "Wire.send() أعيدت تسميته الى Wire.write()."""
+msgstr "Wire.send() أعيد تسميته الى Wire.write()."""
 
 #: debug/Compiler.java:499
 msgid ""
@@ -1096,11 +1096,11 @@ msgstr ""
 
 #: debug/Compiler.java:510
 msgid "'Mouse' only supported on the Arduino Leonardo"
-msgstr "'الفأرة يمكن فقط ان تعمل فقط على لوحة اردوينو ليوناردو"
+msgstr "'الفأرة يمكن  ان تعمل فقط على لوحة اردوينو ليوناردو"
 
 #: debug/Compiler.java:515
 msgid "'Keyboard' only supported on the Arduino Leonardo"
-msgstr "لوحة المفاتيح  يمكن فقط ان تعمل فقط على لوحة اردوينو ليوناردو"
+msgstr "لوحة المفاتيح  يمكن  ان تعمل فقط على لوحة اردوينو ليوناردو"
 
 #: EditorConsole.java:152
 msgid "Console Error"
@@ -1111,16 +1111,16 @@ msgid ""
 "A problem occurred while trying to open the\n"
 "files used to store the console output."
 msgstr ""
-"حدثت مشكلة اثناء فتح\n"
+"حدثت مشكلة اثناء محاولة فتح\n"
 "ملفات تستخدم لتخزين المخرجات."
 
 #: Base.java:184
 msgid "Non-fatal error while setting the Look & Feel."
-msgstr "خطأ غير ضار اثناى اعداد الواجهة والشعور"
+msgstr "خطأ غير ضار اثناء اعداد المظهر والشعور"
 
 #: Base.java:185
 msgid "The error message follows, however Arduino should run fine."
-msgstr  "اتباع راسالة الخطأ، على كل حال ستعمل الاردوينو بشكل جيد"
+msgstr  " رسالة الخطأ تتابع، على كل حال ستعمل الاردوينو بشكل جيد"
 
 #: Base.java:220
 msgid "Problem Setting the Platform"
@@ -1160,10 +1160,10 @@ msgid ""
 "necessary. Arduino will then stop talking about\n"
 "himself in the third person."
 msgstr ""
-"مجلد الشيفرة البرمجية بوك لم يعد موجودا.\n"
-"سينتقل الاردوينو الى مكان الشيفرة البرمجية بوك\n"
-"الافتراضي, او انشاء واحد جديد اذا تطلب الأمرif\n"
-". الاردوينو سيوقف الحديث \n"
+"مجلد كتاب الشيفرة البرمجية  لم يعد موجودا.\n"
+"سينتقل الاردوينو الى مكان كتاب الشيفرة البرمجية \n"
+"الافتراضي, و انشاء مجلد جديد اذا كانif\n"
+"ضرورياً. الاردوينو سيوقف الحديث \n"
 "عن نفسه."
 
 #: Base.java:532
@@ -1188,7 +1188,7 @@ msgstr "لا يا صديقي , حان الوقت لتأخذ فترة راحة ق
 
 #: Base.java:633
 msgid "Open an Arduino sketch..."
-msgstr "فتح الاردوينو شيفرة البرمجية"
+msgstr "فتح  شيفرة أردوينو برمجية"
 
 #: Base.java:772
 msgid ""
@@ -1226,8 +1226,9 @@ msgid ""
 msgstr ""
 "الشيفرة البرمجية \"{0}\" لا يمكن استخدامه.\n"
 "اسم الشيفرة البرمجية يجب ان يحتوي حروف وارقام فقط\n"
-"(حروف من دون فراغات,ولا يمكن ان يبدأ في رقم).\n"
-"لتخلص من هذه الرسالة, احذف الشيفرة البرمجية من \n"
+"(أحرف آسكي فقط  من دون فراغات,ولا يمكن ان يبدأ في رقم).\n"
+"للتخلص من هذه الرسالة, احذف الشيفرة البرمجية من \n"
+"{1}"
 
 #: Base.java:1132
 msgid "Ignoring sketch with bad name"
@@ -1242,7 +1243,7 @@ msgid ""
 msgstr ""
 "المكتبة  \"{0}\" لا يمكن استخدامها.\n"
 "اسم المكتبة يجب ان يكون حروف وارقام فقط.\n"
-"(لا فراغات ولا يمكن البدء في رقم)"
+"(أحرف آسكي فقط و لا فراغات ولا يمكن البدء في رقم)"
 
 #: Base.java:1207
 msgid "Ignoring bad library name"
@@ -1265,20 +1266,20 @@ msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your settings."
 msgstr ""
-"الاردوينو لا تعمل لعدم\n"
-"تمكنها من انشاء مجلد لحفظ الاعدادات."
+"الاردوينو لا يمكنه أن ييدأ لأنه لا يمكن \n"
+" انشاء مجلد لحفظ إعداداتك."
 
 #: Base.java:1602
 msgid "You forgot your sketchbook"
-msgstr "لقد نسيت الشيفرة البرمجيةبوك (sketchbook)"
+msgstr "لقد نسيت كتاب الشيفرة البرمجية (sketchbook)"
 
 #: Base.java:1603
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your sketchbook."
 msgstr ""
-"الارديوينو لم تتمكن من التشغيل بسبب  انها \n"
-"لا تستطيع انشاء مجلد لحفظ الشيفرة البرمجيةبوك (sketchbook)."
+"الاردوينو لم تتمكن من التشغيل بسبب  انها \n"
+"لا تستطيع انشاء مجلد لحفظ كتاب الشيفرة البرمجية (sketchbook)."
 
 #: Base.java:1623
 msgid "Select (or create new) folder for sketches..."
@@ -1410,13 +1411,15 @@ msgid ""
 "\"launcher=/path/to/app\" line to preferences.txt"
 msgstr ""
 "المنصة غير محددة، المشغل غير متاح.\n"
+"للتفعيل أفتح الروابط أو المجلدات ؛ أضف :"
+"اضف سطر \"launcher=/path/to/app\" الى preferences.txt"
 
 #: Theme.java:52
 msgid ""
 "Could not read color theme settings.\n"
 "You'll need to reinstall Processing."
 msgstr ""
-"لا يمكن قرائة اعتدادات الالوان.\n"
+"لا يمكن قراءة اعتدادات ثيمات الالوان.\n"
 "يجب عليك اعادة تنصيب العملية"
 
 #: Preferences.java:80
@@ -1448,127 +1451,135 @@ msgid "Chinese Traditional"
 msgstr "Chinese Traditional"
 
 #: Preferences.java:89
+msgid "Croatian"
+msgstr ""
+
+#: Preferences.java:90
 msgid "Danish"
 msgstr "Dansk"
 
-#: Preferences.java:90
+#: Preferences.java:91
 msgid "Dutch"
 msgstr "Nederlands"
 
-#: Preferences.java:91
+#: Preferences.java:92
 msgid "English"
 msgstr "English"
 
-#: Preferences.java:92
+#: Preferences.java:93
 msgid "Estonian"
 msgstr "Eesti"
 
-#: Preferences.java:93
+#: Preferences.java:94
 msgid "Filipino"
 msgstr "Pilipino"
 
-#: Preferences.java:94
+#: Preferences.java:95
 msgid "French"
 msgstr "Français"
 
-#: Preferences.java:95
+#: Preferences.java:96
 msgid "Galician"
 msgstr "Galego"
 
-#: Preferences.java:96
+#: Preferences.java:97
 msgid "German"
 msgstr "Deutsch"
 
-#: Preferences.java:97
+#: Preferences.java:98
 msgid "Greek"
 msgstr "Greek"
 
-#: Preferences.java:98
+#: Preferences.java:99
 msgid "Hindi"
 msgstr "Hindi"
 
-#: Preferences.java:99
+#: Preferences.java:100
 msgid "Hungarian"
 msgstr "Magyar"
 
-#: Preferences.java:100
+#: Preferences.java:101
 msgid "Indonesian"
 msgstr "Bahasa Indonesia"
 
-#: Preferences.java:101
+#: Preferences.java:102
 msgid "Italian"
 msgstr "Italiano"
 
-#: Preferences.java:102
+#: Preferences.java:103
 msgid "Japanese"
 msgstr "Japanese"
 
-#: Preferences.java:103
+#: Preferences.java:104
 msgid "Korean"
 msgstr "Korean"
 
-#: Preferences.java:104
+#: Preferences.java:105
 msgid "Latvian"
 msgstr "Latvie?u Valoda"
 
-#: Preferences.java:105
+#: Preferences.java:106
 msgid "Lithuaninan"
 msgstr "Lithuaninan"
 
-#: Preferences.java:106
+#: Preferences.java:107
 msgid "Marathi"
 msgstr "Marathi"
 
-#: Preferences.java:107
+#: Preferences.java:108
 msgid "Norwegian"
 msgstr "Norsk"
 
-#: Preferences.java:108
+#: Preferences.java:109
 msgid "Persian"
 msgstr "فارسي"
 
-#: Preferences.java:109
+#: Preferences.java:110
 msgid "Polish"
 msgstr "Polish"
 
-#: Preferences.java:110 Preferences.java:111
+#: Preferences.java:111 Preferences.java:112
 msgid "Portuguese"
 msgstr "Português"
 
-#: Preferences.java:112
+#: Preferences.java:113
 msgid "Romanian"
 msgstr "Romanian"
 
-#: Preferences.java:113
+#: Preferences.java:114
 msgid "Russian"
 msgstr "Russian"
 
-#: Preferences.java:114
+#: Preferences.java:115
 msgid "Spanish"
 msgstr "Spanish"
 
-#: Preferences.java:115
+#: Preferences.java:116
 msgid "Tamil"
 msgstr "Tamil"
 
-#: Preferences.java:218
+#: Preferences.java:117
+msgid "Vietnamese"
+msgstr ""
+
+#: Preferences.java:223
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
 msgstr ""
-"لا يمكن قرائة الاعدادات الافتراضية"
-"يجب عليك اعادت تنصيب الاردوينو"
+"لا يمكن قراءة الاعدادات الافتراضية"
+"يجب عليك اعادة تنصيب الاردوينو"
 
-#: Preferences.java:250
+#: Preferences.java:255
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "لا يمكن قرائة الخصائص من {0} "
 
-#: Preferences.java:269
+#: Preferences.java:274
 msgid "Error reading preferences"
-msgstr "خطا في قراءة الخصائص"
+msgstr "خطأ في قراءة الخصائص"
 
-#: Preferences.java:271
+#: Preferences.java:276
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1577,67 +1588,67 @@ msgstr ""
 "خطافي قرائة ملف الخصائص . رجاءا احذف (او انقل )\n"
 "{0} ثم اعد تشغيل الارديونو"
 
-#: Preferences.java:307
+#: Preferences.java:312
 msgid "Sketchbook location:"
 msgstr "مكان الشيفرة البرمجية"
 
-#: Preferences.java:322
+#: Preferences.java:327
 msgid "Select new sketchbook location"
 msgstr "اختيار مكان الشيفرة البرمجية الجديد"
 
-#: Preferences.java:345
+#: Preferences.java:350
 msgid "Editor language: "
-msgstr ""
+msgstr "لغة المحرر"
 
-#: Preferences.java:350 Preferences.java:366
+#: Preferences.java:355 Preferences.java:371
 msgid "  (requires restart of Arduino)"
-msgstr "(يتطلب اعادت تشغيل للأردوينو)"
+msgstr "(يتطلب اعادة تشغيل للأردوينو)"
 
-#: Preferences.java:362
+#: Preferences.java:367
 msgid "Editor font size: "
 msgstr "حجم خط المحرر :"
 
-#: Preferences.java:379
+#: Preferences.java:384
 msgid "Show verbose output during: "
 msgstr "عرض المخرجات خلال"
 
-#: Preferences.java:381
+#: Preferences.java:386
 msgid "compilation "
 msgstr "ترجمة"
 
-#: Preferences.java:383
+#: Preferences.java:388
 msgid "upload"
 msgstr "رفع"
 
-#: Preferences.java:392
+#: Preferences.java:397
 msgid "Verify code after upload"
-msgstr ""
+msgstr "التأكد من الكود بعد الرفع"
 
-#: Preferences.java:401
+#: Preferences.java:406
 msgid "Use external editor"
 msgstr "استعمال محرر خارجي"
 
-#: Preferences.java:411
+#: Preferences.java:416
 msgid "Check for updates on startup"
 msgstr "افحص التحديثات عند التشغيل"
 
-#: Preferences.java:420
+#: Preferences.java:425
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
-msgstr "تحديث ملفات الشيفرة البرمجية ملف الى الامتداد الجديد عند الحفظ (.pde -> .ino)"
+msgstr "تحديث ملفات الشيفرة البرمجية  الى امتداد جديد عند الحفظ (.pde -> .ino)"
 
-#: Preferences.java:431
+#: Preferences.java:436
 msgid "Automatically associate .ino files with Arduino"
 msgstr "دمج .ino بشكل تلقائي مع الاردوينو"
 
-#: Preferences.java:441
+#: Preferences.java:446
 msgid "More preferences can be edited directly in the file"
-msgstr "يمكن تعديل خصائص اكثر بتعديل الملف بشكل مباشر"
+msgstr "يمكن تعديل خصائص اكثر في الملف بشكل مباشر"
 
-#: Preferences.java:470
+#: Preferences.java:475
 msgid "(edit only when Arduino is not running)"
 msgstr "(لا يمكن التحرير والأردوينو تعمل)"
 
-#: Preferences.java:617
+#: Preferences.java:622
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "تجاهل الخطأ في حجم الخط {0}"

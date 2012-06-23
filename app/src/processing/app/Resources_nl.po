@@ -80,7 +80,7 @@ msgstr "Pagina-instellingen"
 msgid "Print"
 msgstr "Afdrukken"
 
-#: Editor.java:576 Preferences.java:287
+#: Editor.java:576 Preferences.java:292
 msgid "Preferences"
 msgstr "Voorkeuren"
 
@@ -330,7 +330,7 @@ msgstr "Bezig met verplaatsen"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:253
 msgid "Error"
 msgstr "Foutmelding"
 
@@ -532,11 +532,13 @@ msgid ""
 "Serial port ''{0}'' already in use. Try quitting any programs that may be "
 "using it."
 msgstr ""
+"Seriële poort ''{0}'' is al in gebruik. Probeer het programma dat deze "
+"gebruikt af te sluiten."
 
 #: Serial.java:124
 #, java-format
 msgid "Error touching serial port ''{0}''."
-msgstr ""
+msgstr "Probleem bij het aanraken van seriële poort ''{0}''."
 
 #: Serial.java:173
 #, java-format
@@ -971,7 +973,7 @@ msgstr ""
 
 #: debug/AvrdudeUploader.java:96
 msgid "Forcing reset using 1200bps open/close on port "
-msgstr ""
+msgstr "Forceer reset gebruik makend van 1200bps open/dicht op de poort"
 
 #: debug/AvrdudeUploader.java:151
 msgid ""
@@ -979,10 +981,13 @@ msgid ""
 "correct port selected.  If it is correct, try pressing the board's reset "
 "button after initiating the upload."
 msgstr ""
+"kon geen Leonardo vinden op de geselecteerde poort. Controleer of je de "
+"juiste poort selecteerde.  Als deze correct is, probeer dan de reset knop "
+"van het board in te drukken, na het begin van de upload."
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
-msgstr ""
+msgstr "https://developer.berlios.de/bugs/?group_id=3590"
 
 #: debug/Uploader.java:54 debug/Compiler.java:43
 #, java-format
@@ -1111,9 +1116,6 @@ msgid ""
 "EthernetClient.\n"
 "\n"
 msgstr ""
-"\n"
-"De Udp klasse uit de ethernetbibliotheek heet sinds Arduino 1.0 EthernetClient.\n"
-"\n"
 
 #: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
@@ -1149,11 +1151,11 @@ msgstr ""
 
 #: debug/Compiler.java:510
 msgid "'Mouse' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "Enkel 'muis' ondersteuning op de Arduino Leonardo"
 
 #: debug/Compiler.java:515
 msgid "'Keyboard' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "Enkel 'toetsenbord' ondersteuning op de Arduino Leonardo"
 
 #: EditorConsole.java:152
 msgid "Console Error"
@@ -1250,7 +1252,9 @@ msgid ""
 "sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
 msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
-"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Weet u zeker dat u wilt stoppen?</b><p>Na het sluiten van de laatste sketch zal Arduino worden afgesloten."
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Weet u "
+"zeker dat u wilt stoppen?</b><p>Na het sluiten van de laatste sketch zal"
+"Arduino worden afgesloten."
 
 #: Base.java:970
 msgid "Contributed"
@@ -1485,133 +1489,141 @@ msgstr "Bladeren"
 
 #: Preferences.java:83
 msgid "System Default"
-msgstr ""
+msgstr "Systeem standaard"
 
 #: Preferences.java:84
 msgid "Arabic"
-msgstr ""
+msgstr "Arabisch"
 
 #: Preferences.java:85
 msgid "Aragonese"
-msgstr ""
+msgstr "Aragonees"
 
 #: Preferences.java:86
 msgid "Catalan"
-msgstr ""
+msgstr "Catalaans"
 
 #: Preferences.java:87
 msgid "Chinese Simplified"
-msgstr ""
+msgstr "vereenvoudigd Chinees"
 
 #: Preferences.java:88
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "traditioneel Chinees"
 
 #: Preferences.java:89
-msgid "Danish"
+msgid "Croatian"
 msgstr ""
 
 #: Preferences.java:90
-msgid "Dutch"
-msgstr ""
+msgid "Danish"
+msgstr "Deens"
 
 #: Preferences.java:91
-msgid "English"
-msgstr ""
+msgid "Dutch"
+msgstr "Nerderlands"
 
 #: Preferences.java:92
-msgid "Estonian"
-msgstr ""
+msgid "English"
+msgstr "Engels"
 
 #: Preferences.java:93
-msgid "Filipino"
-msgstr ""
+msgid "Estonian"
+msgstr "Estlands"
 
 #: Preferences.java:94
-msgid "French"
-msgstr ""
+msgid "Filipino"
+msgstr "Filipijns"
 
 #: Preferences.java:95
-msgid "Galician"
-msgstr ""
+msgid "French"
+msgstr "Frans"
 
 #: Preferences.java:96
-msgid "German"
-msgstr ""
+msgid "Galician"
+msgstr "Galicisch"
 
 #: Preferences.java:97
-msgid "Greek"
-msgstr ""
+msgid "German"
+msgstr "Duits"
 
 #: Preferences.java:98
-msgid "Hindi"
-msgstr ""
+msgid "Greek"
+msgstr "Grieks"
 
 #: Preferences.java:99
-msgid "Hungarian"
-msgstr ""
+msgid "Hindi"
+msgstr "Hindi"
 
 #: Preferences.java:100
-msgid "Indonesian"
-msgstr ""
+msgid "Hungarian"
+msgstr "Hongaars"
 
 #: Preferences.java:101
-msgid "Italian"
-msgstr ""
+msgid "Indonesian"
+msgstr "Indonesisch"
 
 #: Preferences.java:102
-msgid "Japanese"
-msgstr ""
+msgid "Italian"
+msgstr "Italiaans"
 
 #: Preferences.java:103
-msgid "Korean"
-msgstr ""
+msgid "Japanese"
+msgstr "Japans"
 
 #: Preferences.java:104
-msgid "Latvian"
-msgstr ""
+msgid "Korean"
+msgstr "koreaans"
 
 #: Preferences.java:105
-msgid "Lithuaninan"
-msgstr ""
+msgid "Latvian"
+msgstr "Lets"
 
 #: Preferences.java:106
-msgid "Marathi"
-msgstr ""
+msgid "Lithuaninan"
+msgstr "Litouws"
 
 #: Preferences.java:107
-msgid "Norwegian"
-msgstr ""
+msgid "Marathi"
+msgstr "Marathi"
 
 #: Preferences.java:108
-msgid "Persian"
-msgstr ""
+msgid "Norwegian"
+msgstr "Noors"
 
 #: Preferences.java:109
+msgid "Persian"
+msgstr "Persisch"
+
+#: Preferences.java:110
 msgid "Polish"
-msgstr ""
+msgstr "Pools"
 
-#: Preferences.java:110 Preferences.java:111
+#: Preferences.java:111 Preferences.java:112
 msgid "Portuguese"
-msgstr ""
-
-#: Preferences.java:112
-msgid "Romanian"
-msgstr ""
+msgstr "Portugees"
 
 #: Preferences.java:113
-msgid "Russian"
-msgstr ""
+msgid "Romanian"
+msgstr "Roemeens"
 
 #: Preferences.java:114
-msgid "Spanish"
-msgstr ""
+msgid "Russian"
+msgstr "Russisch"
 
 #: Preferences.java:115
+msgid "Spanish"
+msgstr "Spaans"
+
+#: Preferences.java:116
 msgid "Tamil"
+msgstr "Tamil"
+
+#: Preferences.java:117
+msgid "Vietnamese"
 msgstr ""
 
-#: Preferences.java:218
+#: Preferences.java:223
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1619,16 +1631,16 @@ msgstr ""
 "Kon de standaard-instellingen niet lezen.\n"
 "U zult Arduino opnieuw moeten installeren."
 
-#: Preferences.java:250
+#: Preferences.java:255
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "Kon de instellingen van {0} niet lezen"
 
-#: Preferences.java:269
+#: Preferences.java:274
 msgid "Error reading preferences"
 msgstr "Fout bij lezen instellingen"
 
-#: Preferences.java:271
+#: Preferences.java:276
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1637,67 +1649,67 @@ msgstr ""
 "Fout bij lezen instellingenbestand. Verwijder (of verplaats)\n"
 "{0} en start Arduino opnieuw op."
 
-#: Preferences.java:307
+#: Preferences.java:312
 msgid "Sketchbook location:"
 msgstr "Locatie van sketchbook:"
 
-#: Preferences.java:322
+#: Preferences.java:327
 msgid "Select new sketchbook location"
 msgstr "Selecteer nieuwe sketchbook-locatie"
 
-#: Preferences.java:345
+#: Preferences.java:350
 msgid "Editor language: "
-msgstr ""
+msgstr "Editor taal:"
 
-#: Preferences.java:350 Preferences.java:366
+#: Preferences.java:355 Preferences.java:371
 msgid "  (requires restart of Arduino)"
 msgstr "  (herstart van Arduino nodig)"
 
-#: Preferences.java:362
+#: Preferences.java:367
 msgid "Editor font size: "
 msgstr "Lettertype voor editor: "
 
-#: Preferences.java:379
+#: Preferences.java:384
 msgid "Show verbose output during: "
 msgstr "Toon uitgebreide output tijdens: "
 
-#: Preferences.java:381
+#: Preferences.java:386
 msgid "compilation "
 msgstr "compilatie"
 
-#: Preferences.java:383
+#: Preferences.java:388
 msgid "upload"
 msgstr "upload"
 
-#: Preferences.java:392
+#: Preferences.java:397
 msgid "Verify code after upload"
 msgstr "Controleer code na upload"
 
-#: Preferences.java:401
+#: Preferences.java:406
 msgid "Use external editor"
 msgstr "Gebruik externe editor"
 
-#: Preferences.java:411
+#: Preferences.java:416
 msgid "Check for updates on startup"
 msgstr "Bij opstarten op updates controleren"
 
-#: Preferences.java:420
+#: Preferences.java:425
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "Bij opslaan de sketch-bestanden updaten naar de nieuwe extensie (.pde -> .ino)"
 
-#: Preferences.java:431
+#: Preferences.java:436
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Arduino koppelen aan .ino-bestanden"
 
-#: Preferences.java:441
+#: Preferences.java:446
 msgid "More preferences can be edited directly in the file"
 msgstr "Meer voorkeuren kunnen rechtstreeks in het bestand worden bewerkt"
 
-#: Preferences.java:470
+#: Preferences.java:475
 msgid "(edit only when Arduino is not running)"
 msgstr "(alleen bewerken als Arduino niet wordt uitgevoerd)"
 
-#: Preferences.java:617
+#: Preferences.java:622
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "verkeerde lettergroote {0} wordt genegeerd"

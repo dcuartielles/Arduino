@@ -79,7 +79,7 @@ msgstr "페이지 설정"
 msgid "Print"
 msgstr "인쇄"
 
-#: Editor.java:576 Preferences.java:287
+#: Editor.java:576 Preferences.java:292
 msgid "Preferences"
 msgstr "환경 설정"
 
@@ -329,7 +329,7 @@ msgstr "이동"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:253
 msgid "Error"
 msgstr "에러"
 
@@ -1112,9 +1112,6 @@ msgid ""
 "EthernetClient.\n"
 "\n"
 msgstr ""
-"\n"
-"아두이노 1.0 경우, 이더넷 라이브러리의 Udp 클래스는 EthernetClient로 이름이 변경되었습니다"
-"\n"
 
 #: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
@@ -1508,110 +1505,118 @@ msgid "Chinese Traditional"
 msgstr ""
 
 #: Preferences.java:89
-msgid "Danish"
+msgid "Croatian"
 msgstr ""
 
 #: Preferences.java:90
-msgid "Dutch"
+msgid "Danish"
 msgstr ""
 
 #: Preferences.java:91
-msgid "English"
+msgid "Dutch"
 msgstr ""
 
 #: Preferences.java:92
-msgid "Estonian"
+msgid "English"
 msgstr ""
 
 #: Preferences.java:93
-msgid "Filipino"
+msgid "Estonian"
 msgstr ""
 
 #: Preferences.java:94
-msgid "French"
+msgid "Filipino"
 msgstr ""
 
 #: Preferences.java:95
-msgid "Galician"
+msgid "French"
 msgstr ""
 
 #: Preferences.java:96
-msgid "German"
+msgid "Galician"
 msgstr ""
 
 #: Preferences.java:97
-msgid "Greek"
+msgid "German"
 msgstr ""
 
 #: Preferences.java:98
-msgid "Hindi"
+msgid "Greek"
 msgstr ""
 
 #: Preferences.java:99
-msgid "Hungarian"
+msgid "Hindi"
 msgstr ""
 
 #: Preferences.java:100
-msgid "Indonesian"
+msgid "Hungarian"
 msgstr ""
 
 #: Preferences.java:101
-msgid "Italian"
+msgid "Indonesian"
 msgstr ""
 
 #: Preferences.java:102
-msgid "Japanese"
+msgid "Italian"
 msgstr ""
 
 #: Preferences.java:103
-msgid "Korean"
+msgid "Japanese"
 msgstr ""
 
 #: Preferences.java:104
-msgid "Latvian"
+msgid "Korean"
 msgstr ""
 
 #: Preferences.java:105
-msgid "Lithuaninan"
+msgid "Latvian"
 msgstr ""
 
 #: Preferences.java:106
-msgid "Marathi"
+msgid "Lithuaninan"
 msgstr ""
 
 #: Preferences.java:107
-msgid "Norwegian"
+msgid "Marathi"
 msgstr ""
 
 #: Preferences.java:108
-msgid "Persian"
+msgid "Norwegian"
 msgstr ""
 
 #: Preferences.java:109
+msgid "Persian"
+msgstr ""
+
+#: Preferences.java:110
 msgid "Polish"
 msgstr ""
 
-#: Preferences.java:110 Preferences.java:111
+#: Preferences.java:111 Preferences.java:112
 msgid "Portuguese"
 msgstr ""
 
-#: Preferences.java:112
+#: Preferences.java:113
 msgid "Romanian"
 msgstr ""
 
-#: Preferences.java:113
+#: Preferences.java:114
 msgid "Russian"
 msgstr ""
 
-#: Preferences.java:114
+#: Preferences.java:115
 msgid "Spanish"
 msgstr ""
 
-#: Preferences.java:115
+#: Preferences.java:116
 msgid "Tamil"
 msgstr ""
 
-#: Preferences.java:218
+#: Preferences.java:117
+msgid "Vietnamese"
+msgstr ""
+
+#: Preferences.java:223
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1619,16 +1624,16 @@ msgstr ""
 "기본 설정을 읽을 수 없습니다.\n"
 "아두이노를 다시 설치해야 합니다."
 
-#: Preferences.java:250
+#: Preferences.java:255
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "{0}로 부터 환경설정을 읽을 수 없습니다"
 
-#: Preferences.java:269
+#: Preferences.java:274
 msgid "Error reading preferences"
 msgstr "환경설정을 읽는 중 오류"
 
-#: Preferences.java:271
+#: Preferences.java:276
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1637,67 +1642,67 @@ msgstr ""
 "환경설정을 읽는 중 오류. {0}을 삭제(또는 이동)하고\n"
 "아두이노를 다시 시작합니다."
 
-#: Preferences.java:307
+#: Preferences.java:312
 msgid "Sketchbook location:"
 msgstr "스케치북 위치: "
 
-#: Preferences.java:322
+#: Preferences.java:327
 msgid "Select new sketchbook location"
 msgstr "새로운 스케치북 위치를 선택"
 
-#: Preferences.java:345
+#: Preferences.java:350
 msgid "Editor language: "
 msgstr ""
 
-#: Preferences.java:350 Preferences.java:366
+#: Preferences.java:355 Preferences.java:371
 msgid "  (requires restart of Arduino)"
 msgstr "  (아두이노를 재시작해야 함)"
 
-#: Preferences.java:362
+#: Preferences.java:367
 msgid "Editor font size: "
 msgstr "에디터 글꼴 크기: "
 
-#: Preferences.java:379
+#: Preferences.java:384
 msgid "Show verbose output during: "
 msgstr "다음 동작중 자세한  출력 보이기: "
 
-#: Preferences.java:381
+#: Preferences.java:386
 msgid "compilation "
 msgstr "컴파일 "
 
-#: Preferences.java:383
+#: Preferences.java:388
 msgid "upload"
 msgstr "업로드"
 
-#: Preferences.java:392
+#: Preferences.java:397
 msgid "Verify code after upload"
 msgstr ""
 
-#: Preferences.java:401
+#: Preferences.java:406
 msgid "Use external editor"
 msgstr "외부 에디터 사용"
 
-#: Preferences.java:411
+#: Preferences.java:416
 msgid "Check for updates on startup"
 msgstr "시작시 업데이트 확인"
 
-#: Preferences.java:420
+#: Preferences.java:425
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "스케치 파일을 저장할때 새로운 확장자(.pde -> .ino)로 업데이트"
 
-#: Preferences.java:431
+#: Preferences.java:436
 msgid "Automatically associate .ino files with Arduino"
 msgstr ".ino파일을 아두이노와 자동으로 연결합니니다."
 
-#: Preferences.java:441
+#: Preferences.java:446
 msgid "More preferences can be edited directly in the file"
 msgstr "추가적인 환경 설정은 직접 파일에서 편집할 수 있습니다"
 
-#: Preferences.java:470
+#: Preferences.java:475
 msgid "(edit only when Arduino is not running)"
 msgstr "(아두이노가 실행되지 않는 경우에만 수정 가능)"
 
-#: Preferences.java:617
+#: Preferences.java:622
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "잘못된 글꼴크기 {0}를 무시"

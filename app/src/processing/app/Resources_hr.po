@@ -80,7 +80,7 @@ msgstr "Postavke stranice"
 msgid "Print"
 msgstr "Ispis"
 
-#: Editor.java:576 Preferences.java:287
+#: Editor.java:576 Preferences.java:292
 msgid "Preferences"
 msgstr "Postavke"
 
@@ -329,7 +329,7 @@ msgstr "Pomicanje"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:253
 msgid "Error"
 msgstr "Pogreška"
 
@@ -1113,10 +1113,6 @@ msgid ""
 "EthernetClient.\n"
 "\n"
 msgstr ""
-"\n"
-"Od Arduino 1.0,  Udp klasa u  Ethernet biblioteci je preimenovana u "
-"EthernetUdp.\n"
-"\n"
 
 #: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
@@ -1510,110 +1506,118 @@ msgid "Chinese Traditional"
 msgstr "Chinese Traditional"
 
 #: Preferences.java:89
+msgid "Croatian"
+msgstr ""
+
+#: Preferences.java:90
 msgid "Danish"
 msgstr "Danish"
 
-#: Preferences.java:90
+#: Preferences.java:91
 msgid "Dutch"
 msgstr "Dutch"
 
-#: Preferences.java:91
+#: Preferences.java:92
 msgid "English"
 msgstr "English"
 
-#: Preferences.java:92
+#: Preferences.java:93
 msgid "Estonian"
 msgstr "Estonian"
 
-#: Preferences.java:93
+#: Preferences.java:94
 msgid "Filipino"
 msgstr "Filipino"
 
-#: Preferences.java:94
+#: Preferences.java:95
 msgid "French"
 msgstr "French"
 
-#: Preferences.java:95
+#: Preferences.java:96
 msgid "Galician"
 msgstr "Galician"
 
-#: Preferences.java:96
+#: Preferences.java:97
 msgid "German"
 msgstr "German"
 
-#: Preferences.java:97
+#: Preferences.java:98
 msgid "Greek"
 msgstr "Greek"
 
-#: Preferences.java:98
+#: Preferences.java:99
 msgid "Hindi"
 msgstr "Hindi"
 
-#: Preferences.java:99
+#: Preferences.java:100
 msgid "Hungarian"
 msgstr "Hungarian"
 
-#: Preferences.java:100
+#: Preferences.java:101
 msgid "Indonesian"
 msgstr "Indonesian"
 
-#: Preferences.java:101
+#: Preferences.java:102
 msgid "Italian"
 msgstr "Italian"
 
-#: Preferences.java:102
+#: Preferences.java:103
 msgid "Japanese"
 msgstr "Japanese"
 
-#: Preferences.java:103
+#: Preferences.java:104
 msgid "Korean"
 msgstr "Korean"
 
-#: Preferences.java:104
+#: Preferences.java:105
 msgid "Latvian"
 msgstr "Latvian"
 
-#: Preferences.java:105
+#: Preferences.java:106
 msgid "Lithuaninan"
 msgstr "Lithuaninan"
 
-#: Preferences.java:106
+#: Preferences.java:107
 msgid "Marathi"
 msgstr "Marathi"
 
-#: Preferences.java:107
+#: Preferences.java:108
 msgid "Norwegian"
 msgstr "Norwegian"
 
-#: Preferences.java:108
+#: Preferences.java:109
 msgid "Persian"
 msgstr "Persian"
 
-#: Preferences.java:109
+#: Preferences.java:110
 msgid "Polish"
 msgstr "Polish"
 
-#: Preferences.java:110 Preferences.java:111
+#: Preferences.java:111 Preferences.java:112
 msgid "Portuguese"
 msgstr "Portuguese"
 
-#: Preferences.java:112
+#: Preferences.java:113
 msgid "Romanian"
 msgstr "Romanian"
 
-#: Preferences.java:113
+#: Preferences.java:114
 msgid "Russian"
 msgstr "Russian"
 
-#: Preferences.java:114
+#: Preferences.java:115
 msgid "Spanish"
 msgstr "Spanish"
 
-#: Preferences.java:115
+#: Preferences.java:116
 msgid "Tamil"
 msgstr "Tamil"
 
-#: Preferences.java:218
+#: Preferences.java:117
+msgid "Vietnamese"
+msgstr ""
+
+#: Preferences.java:223
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1621,16 +1625,16 @@ msgstr ""
 "Nemoguće čitanje osnovnih postavki.\n"
 "Potrebno je ponovno instalirati Arduino."
 
-#: Preferences.java:250
+#: Preferences.java:255
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "Nemoguće čitanje postavki iz {0}"
 
-#: Preferences.java:269
+#: Preferences.java:274
 msgid "Error reading preferences"
 msgstr "Greška pri čitanju postavki"
 
-#: Preferences.java:271
+#: Preferences.java:276
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1639,67 +1643,67 @@ msgstr ""
 "Greška pri čitanju datoteke s postavkama. Molimo obrisati ili pomaknuti\n"
 "{0} i ponovno pokrenuti Arduino."
 
-#: Preferences.java:307
+#: Preferences.java:312
 msgid "Sketchbook location:"
 msgstr "Lokacija bloka s skicama:"
 
-#: Preferences.java:322
+#: Preferences.java:327
 msgid "Select new sketchbook location"
 msgstr "Odaberite novu lokaciju za blok s skicama"
 
-#: Preferences.java:345
+#: Preferences.java:350
 msgid "Editor language: "
 msgstr "Jezik uređivanja: "
 
-#: Preferences.java:350 Preferences.java:366
+#: Preferences.java:355 Preferences.java:371
 msgid "  (requires restart of Arduino)"
 msgstr "  (potrebno ponovno pokretanje Arduino-a)"
 
-#: Preferences.java:362
+#: Preferences.java:367
 msgid "Editor font size: "
 msgstr "Veličina fonta: "
 
-#: Preferences.java:379
+#: Preferences.java:384
 msgid "Show verbose output during: "
 msgstr "Prikaži prošireni ispis prilikom: "
 
-#: Preferences.java:381
+#: Preferences.java:386
 msgid "compilation "
 msgstr "kompajliranje"
 
-#: Preferences.java:383
+#: Preferences.java:388
 msgid "upload"
 msgstr "prijenos"
 
-#: Preferences.java:392
+#: Preferences.java:397
 msgid "Verify code after upload"
 msgstr "Provjera koda nakon prijenosa"
 
-#: Preferences.java:401
+#: Preferences.java:406
 msgid "Use external editor"
 msgstr "Korištenje vanjskog uređivača teksta"
 
-#: Preferences.java:411
+#: Preferences.java:416
 msgid "Check for updates on startup"
 msgstr "Provjera nadogradnji pri pokretanju"
 
-#: Preferences.java:420
+#: Preferences.java:425
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "Promjena nastavka iz .pde ->ino spri snimanju datoteke sa skicom"
 
-#: Preferences.java:431
+#: Preferences.java:436
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Automatski poveži .ino datoteke s Arduino IDE-om"
 
-#: Preferences.java:441
+#: Preferences.java:446
 msgid "More preferences can be edited directly in the file"
 msgstr "Ostale postavke moguće je uređivati direktno u datoteci"
 
-#: Preferences.java:470
+#: Preferences.java:475
 msgid "(edit only when Arduino is not running)"
 msgstr "(uređuj samo kada Arduino ne radi)"
 
-#: Preferences.java:617
+#: Preferences.java:622
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "ignoriraj pogrešnu veličinu fonta {0}"

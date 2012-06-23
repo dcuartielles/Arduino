@@ -81,7 +81,7 @@ msgstr "Iniţializare pagină"
 msgid "Print"
 msgstr "Tipărire"
 
-#: Editor.java:576 Preferences.java:287
+#: Editor.java:576 Preferences.java:292
 msgid "Preferences"
 msgstr "Preferinţe"
 
@@ -331,7 +331,7 @@ msgstr "Deplasează"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:253
 msgid "Error"
 msgstr "Eroare"
 
@@ -533,11 +533,13 @@ msgid ""
 "Serial port ''{0}'' already in use. Try quitting any programs that may be "
 "using it."
 msgstr ""
+"Portul serial ''{0}'' este deja în uz. Verifică ce programe îl folosesc \n"
+"şi încearcă să le închizi."
 
 #: Serial.java:124
 #, java-format
 msgid "Error touching serial port ''{0}''."
-msgstr ""
+msgstr "Eroare la deschiderea portului serial ''{0}''."
 
 #: Serial.java:173
 #, java-format
@@ -975,7 +977,7 @@ msgstr ""
 
 #: debug/AvrdudeUploader.java:96
 msgid "Forcing reset using 1200bps open/close on port "
-msgstr ""
+msgstr "Se forţează resetul folosind un port inchis /deschis la 1200bps"
 
 #: debug/AvrdudeUploader.java:151
 msgid ""
@@ -983,6 +985,9 @@ msgid ""
 "correct port selected.  If it is correct, try pressing the board's reset "
 "button after initiating the upload."
 msgstr ""
+"Nu am găsit placa Leonardo pe portul selectat. Verifică daca portul "
+"selectat este corect. Daca portul este corect încearca să apeşi butonul de reset"
+"imediat după ieţirea din upload."
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -1118,10 +1123,6 @@ msgid ""
 "EthernetClient.\n"
 "\n"
 msgstr ""
-"\n"
-"Începând cu versiunea Arduino 1.0, clasa Udp, din biblioteca Ethernet, a fost redenumită "
-"în EthernetClient.\n"
-"\n"
 
 #: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
@@ -1494,15 +1495,15 @@ msgstr "Răsfoire"
 
 #: Preferences.java:83
 msgid "System Default"
-msgstr ""
+msgstr "Implicită pentru sistem"
 
 #: Preferences.java:84
 msgid "Arabic"
-msgstr ""
+msgstr "Arabă"
 
 #: Preferences.java:85
 msgid "Aragonese"
-msgstr ""
+msgstr "Aragoneză"
 
 #: Preferences.java:86
 msgid "Catalan"
@@ -1514,113 +1515,121 @@ msgstr "Chineză simplificată"
 
 #: Preferences.java:88
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "Chineză tradiţională"
 
 #: Preferences.java:89
+msgid "Croatian"
+msgstr ""
+
+#: Preferences.java:90
 msgid "Danish"
 msgstr "Daneză"
 
-#: Preferences.java:90
+#: Preferences.java:91
 msgid "Dutch"
 msgstr "Olandeză"
 
-#: Preferences.java:91
+#: Preferences.java:92
 msgid "English"
 msgstr "Engleză"
 
-#: Preferences.java:92
-msgid "Estonian"
-msgstr ""
-
 #: Preferences.java:93
+msgid "Estonian"
+msgstr "Estonă"
+
+#: Preferences.java:94
 msgid "Filipino"
 msgstr "Filipineză"
 
-#: Preferences.java:94
+#: Preferences.java:95
 msgid "French"
 msgstr "Franceză"
 
-#: Preferences.java:95
+#: Preferences.java:96
 msgid "Galician"
 msgstr "Galeză"
 
-#: Preferences.java:96
+#: Preferences.java:97
 msgid "German"
 msgstr "Germană"
 
-#: Preferences.java:97
+#: Preferences.java:98
 msgid "Greek"
 msgstr "Greacă"
 
-#: Preferences.java:98
-msgid "Hindi"
-msgstr ""
-
 #: Preferences.java:99
+msgid "Hindi"
+msgstr "Hindusă"
+
+#: Preferences.java:100
 msgid "Hungarian"
 msgstr "Maghiară"
 
-#: Preferences.java:100
-msgid "Indonesian"
-msgstr ""
-
 #: Preferences.java:101
+msgid "Indonesian"
+msgstr "Indoneziană"
+
+#: Preferences.java:102
 msgid "Italian"
 msgstr "Italiană"
 
-#: Preferences.java:102
+#: Preferences.java:103
 msgid "Japanese"
 msgstr "Japoneză"
 
-#: Preferences.java:103
-msgid "Korean"
-msgstr ""
-
 #: Preferences.java:104
+msgid "Korean"
+msgstr "Koreană"
+
+#: Preferences.java:105
 msgid "Latvian"
 msgstr "Letonă"
 
-#: Preferences.java:105
-msgid "Lithuaninan"
-msgstr ""
-
 #: Preferences.java:106
-msgid "Marathi"
-msgstr ""
+msgid "Lithuaninan"
+msgstr "Lituaniană"
 
 #: Preferences.java:107
-msgid "Norwegian"
-msgstr ""
+msgid "Marathi"
+msgstr "Marathi"
 
 #: Preferences.java:108
+msgid "Norwegian"
+msgstr "Norvegiană"
+
+#: Preferences.java:109
 msgid "Persian"
 msgstr "Persană"
 
-#: Preferences.java:109
+#: Preferences.java:110
 msgid "Polish"
-msgstr ""
+msgstr "Poloneză"
 
-#: Preferences.java:110 Preferences.java:111
+#: Preferences.java:111 Preferences.java:112
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugheză"
 
-#: Preferences.java:112
+#: Preferences.java:113
 msgid "Romanian"
 msgstr "Română"
 
-#: Preferences.java:113
-msgid "Russian"
-msgstr ""
-
 #: Preferences.java:114
+msgid "Russian"
+msgstr "Rusă"
+
+#: Preferences.java:115
 msgid "Spanish"
 msgstr "Spaniolă"
 
-#: Preferences.java:115
+#: Preferences.java:116
 msgid "Tamil"
+msgstr "Tamilă"
+
+#: Preferences.java:117
+msgid "Vietnamese"
 msgstr ""
 
-#: Preferences.java:218
+#: Preferences.java:223
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1628,16 +1637,16 @@ msgstr ""
 "Nu s-a putut citi setările implicite.\n"
 "Va trebui să reinstalezi Arduino IDE."
 
-#: Preferences.java:250
+#: Preferences.java:255
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "Nu se pot citi preferinţele din {0}"
 
-#: Preferences.java:269
+#: Preferences.java:274
 msgid "Error reading preferences"
 msgstr "Eroare la citirea preferinţelor"
 
-#: Preferences.java:271
+#: Preferences.java:276
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1646,67 +1655,67 @@ msgstr ""
 "Eroare la citirea fişierului cu preferinţe. Te rog şterge (sau mută) acest fişier\n"
 "{0} şi reporneşte Arduino IDE."
 
-#: Preferences.java:307
+#: Preferences.java:312
 msgid "Sketchbook location:"
 msgstr "Locaţia dosarului cu schiţe:"
 
-#: Preferences.java:322
+#: Preferences.java:327
 msgid "Select new sketchbook location"
 msgstr "Selectează noua locaţie pentru dosarul cu schiţe"
 
-#: Preferences.java:345
+#: Preferences.java:350
 msgid "Editor language: "
-msgstr ""
+msgstr "Limba editorului:"
 
-#: Preferences.java:350 Preferences.java:366
+#: Preferences.java:355 Preferences.java:371
 msgid "  (requires restart of Arduino)"
 msgstr "  (este necesară repornirea editorului)"
 
-#: Preferences.java:362
+#: Preferences.java:367
 msgid "Editor font size: "
 msgstr "Mărimea caracterelor pentru editor:"
 
-#: Preferences.java:379
+#: Preferences.java:384
 msgid "Show verbose output during: "
 msgstr "Detaliază informaţiile de ieşire în timpul: "
 
-#: Preferences.java:381
+#: Preferences.java:386
 msgid "compilation "
 msgstr "compilării"
 
-#: Preferences.java:383
+#: Preferences.java:388
 msgid "upload"
 msgstr "încărcării"
 
-#: Preferences.java:392
+#: Preferences.java:397
 msgid "Verify code after upload"
 msgstr "Verifică codul după încarcare"
 
-#: Preferences.java:401
+#: Preferences.java:406
 msgid "Use external editor"
 msgstr "Foloseşte un editor extern"
 
-#: Preferences.java:411
+#: Preferences.java:416
 msgid "Check for updates on startup"
 msgstr "Caută actualizări la pornirea programului"
 
-#: Preferences.java:420
+#: Preferences.java:425
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "Se schimba extensia fişierelor schiţă la salvare (.pde -> .ino)"
 
-#: Preferences.java:431
+#: Preferences.java:436
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Asociază fişierele .ino cu Arduino"
 
-#: Preferences.java:441
+#: Preferences.java:446
 msgid "More preferences can be edited directly in the file"
 msgstr "Alte preferinţe pot fi editate direct în fişier"
 
-#: Preferences.java:470
+#: Preferences.java:475
 msgid "(edit only when Arduino is not running)"
 msgstr "(editează doar atunci când Arduino IDE nu funcţionează)"
 
-#: Preferences.java:617
+#: Preferences.java:622
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "ignoră dimensiunea incorectă pentru fontul {0}"

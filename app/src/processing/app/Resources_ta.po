@@ -78,7 +78,7 @@ msgstr "பக்கத்தை நிறுவுக"
 msgid "Print"
 msgstr "அச்சிடுக"
 
-#: Editor.java:576 Preferences.java:287
+#: Editor.java:576 Preferences.java:292
 msgid "Preferences"
 msgstr "விருப்பத்தேர்வுகள்"
 
@@ -328,7 +328,7 @@ msgstr "நகற்றுகிறது"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:253
 msgid "Error"
 msgstr "பிழை"
 
@@ -1110,10 +1110,6 @@ msgid ""
 "EthernetClient.\n"
 "\n"
 msgstr ""
-"\n"
-"Arduino 1.0ன் படி, ஈதர்நெட் நூலகத்தில் உள்ள Udp class, EthernetUdp என \n"
-"பெயர்மாற்றப்பட்டுள்ளது.\n"
-"\n"
 
 #: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
@@ -1508,110 +1504,118 @@ msgid "Chinese Traditional"
 msgstr ""
 
 #: Preferences.java:89
+msgid "Croatian"
+msgstr ""
+
+#: Preferences.java:90
 msgid "Danish"
 msgstr "டானியம்"
 
-#: Preferences.java:90
+#: Preferences.java:91
 msgid "Dutch"
 msgstr "உலாந்தியம்"
 
-#: Preferences.java:91
+#: Preferences.java:92
 msgid "English"
 msgstr "ஆங்கிலம்"
 
-#: Preferences.java:92
+#: Preferences.java:93
 msgid "Estonian"
 msgstr ""
 
-#: Preferences.java:93
+#: Preferences.java:94
 msgid "Filipino"
 msgstr "ஃபிலிபினோ"
 
-#: Preferences.java:94
+#: Preferences.java:95
 msgid "French"
 msgstr "பிரஞ்சு"
 
-#: Preferences.java:95
+#: Preferences.java:96
 msgid "Galician"
 msgstr "காலிசியன்"
 
-#: Preferences.java:96
+#: Preferences.java:97
 msgid "German"
 msgstr "ஜெர்மானியம்"
 
-#: Preferences.java:97
+#: Preferences.java:98
 msgid "Greek"
 msgstr "கிரேக்கம்"
 
-#: Preferences.java:98
+#: Preferences.java:99
 msgid "Hindi"
 msgstr ""
 
-#: Preferences.java:99
+#: Preferences.java:100
 msgid "Hungarian"
 msgstr "ஹங்கேரியன்"
 
-#: Preferences.java:100
+#: Preferences.java:101
 msgid "Indonesian"
 msgstr ""
 
-#: Preferences.java:101
+#: Preferences.java:102
 msgid "Italian"
 msgstr "இத்தாலியன்"
 
-#: Preferences.java:102
+#: Preferences.java:103
 msgid "Japanese"
 msgstr "ஜப்பனீஸ்"
 
-#: Preferences.java:103
+#: Preferences.java:104
 msgid "Korean"
 msgstr ""
 
-#: Preferences.java:104
+#: Preferences.java:105
 msgid "Latvian"
 msgstr "லேட்வியன்"
 
-#: Preferences.java:105
+#: Preferences.java:106
 msgid "Lithuaninan"
 msgstr ""
 
-#: Preferences.java:106
+#: Preferences.java:107
 msgid "Marathi"
 msgstr ""
 
-#: Preferences.java:107
+#: Preferences.java:108
 msgid "Norwegian"
 msgstr ""
 
-#: Preferences.java:108
+#: Preferences.java:109
 msgid "Persian"
 msgstr "பர்ஸியன்"
 
-#: Preferences.java:109
+#: Preferences.java:110
 msgid "Polish"
 msgstr ""
 
-#: Preferences.java:110 Preferences.java:111
+#: Preferences.java:111 Preferences.java:112
 msgid "Portuguese"
 msgstr ""
 
-#: Preferences.java:112
+#: Preferences.java:113
 msgid "Romanian"
 msgstr "ரோமானியம்"
 
-#: Preferences.java:113
+#: Preferences.java:114
 msgid "Russian"
 msgstr ""
 
-#: Preferences.java:114
+#: Preferences.java:115
 msgid "Spanish"
 msgstr "ஸ்பானியம்"
 
-#: Preferences.java:115
+#: Preferences.java:116
 msgid "Tamil"
 msgstr ""
 
-#: Preferences.java:218
+#: Preferences.java:117
+msgid "Vietnamese"
+msgstr ""
+
+#: Preferences.java:223
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1619,16 +1623,16 @@ msgstr ""
 "இயல்புநிலை அமைப்புகளை படிக்க முடியவில்லை.\n"
 "நீங்கள் Arduinoவை மீண்டும் நிறுவ வேண்டும்."
 
-#: Preferences.java:250
+#: Preferences.java:255
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "{0}ல் இருந்து விருப்பங்களை படிக்க முடியவில்லை"
 
-#: Preferences.java:269
+#: Preferences.java:274
 msgid "Error reading preferences"
 msgstr "விருப்பங்களை படிப்பதில் பிழை"
 
-#: Preferences.java:271
+#: Preferences.java:276
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1637,67 +1641,67 @@ msgstr ""
 "விருப்பக் கோப்பை படிப்பதில் பிழை. தயவு செய்து {0}வை அகற்றவும்((அ) நகற்றவும்)\n"
 "பின்பு Arduinoவை மறுதொடக்கம் செய்யவும்."
 
-#: Preferences.java:307
+#: Preferences.java:312
 msgid "Sketchbook location:"
 msgstr "வரைவுப்புத்தக இடம்:"
 
-#: Preferences.java:322
+#: Preferences.java:327
 msgid "Select new sketchbook location"
 msgstr "புதிய வரைவுப்புத்தக இடத்தை தேர்வு செய்யவும்"
 
-#: Preferences.java:345
+#: Preferences.java:350
 msgid "Editor language: "
 msgstr ""
 
-#: Preferences.java:350 Preferences.java:366
+#: Preferences.java:355 Preferences.java:371
 msgid "  (requires restart of Arduino)"
 msgstr "  (Arduino மறுதுவக்கம் தேவைப்படுகிறது)"
 
-#: Preferences.java:362
+#: Preferences.java:367
 msgid "Editor font size: "
 msgstr "திருத்தி எழுத்துரு அளவு: "
 
-#: Preferences.java:379
+#: Preferences.java:384
 msgid "Show verbose output during: "
 msgstr "இதன் போது வேர்போசு வெளியீட்டை காண்பிக்கவும்:"
 
-#: Preferences.java:381
+#: Preferences.java:386
 msgid "compilation "
 msgstr "தொகுப்பு"
 
-#: Preferences.java:383
+#: Preferences.java:388
 msgid "upload"
 msgstr "பதிவேற்று"
 
-#: Preferences.java:392
+#: Preferences.java:397
 msgid "Verify code after upload"
 msgstr "பதிவேற்றியவுடன் குறியீட்டை சரிபார்க்கவும்"
 
-#: Preferences.java:401
+#: Preferences.java:406
 msgid "Use external editor"
 msgstr "புற திருத்தியை பயன்படுத்துக"
 
-#: Preferences.java:411
+#: Preferences.java:416
 msgid "Check for updates on startup"
 msgstr "துவக்கும் போது புதுப்பிப்புகள் உள்ளதா என பார்"
 
-#: Preferences.java:420
+#: Preferences.java:425
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "சேமிக்கும் பொது வரைவு கோப்புகளை புதிய நீட்டிப்புகளுக்கு புதுப்பிக்கவும் (.pde -> .ino)"
 
-#: Preferences.java:431
+#: Preferences.java:436
 msgid "Automatically associate .ino files with Arduino"
 msgstr "தானாகவே .ino கோப்புகளை Arduinoவுடன் தொடர்பு படுத்தவும்"
 
-#: Preferences.java:441
+#: Preferences.java:446
 msgid "More preferences can be edited directly in the file"
 msgstr "மேலும் விருப்பத்தேர்வுகளை நேரடியாக கோப்பில் திருத்தலாம்"
 
-#: Preferences.java:470
+#: Preferences.java:475
 msgid "(edit only when Arduino is not running)"
 msgstr "(Arduino செயல்படாதபோது மாற்றம் மட்டுமே முடியும்)"
 
-#: Preferences.java:617
+#: Preferences.java:622
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "தவறான எழுத்துரு அளவை {0} அளச்சியப்படுத்துகிறது"
